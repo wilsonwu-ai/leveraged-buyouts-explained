@@ -1,0 +1,21 @@
+# private working files: never publish
+brief/
+.DS_Store
+*.wav
+__pycache__/
+content/community-post.md
+research/news/
+research/social/
+motion/build/
+research/filings/*/
+model/__pycache__/
+research/web_raw/*
+!research/web_raw/fetch_anchors.py
+research/industry/
+*.bak
+motion/node_modules/
+node_modules/
+motion/.hyperframes/
+# working thesis notes: not claim-checked, the article is the public version
+thesis/
+research/web/

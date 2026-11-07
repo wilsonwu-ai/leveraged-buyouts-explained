@@ -1,0 +1,64 @@
+<figure class="fig" id="fig-stack" aria-labelledby="fig-stack-t">
+  <p class="fig-title" id="fig-stack-t">Pay more, and the bank test fails</p>
+  <p class="fig-sub">Move the price and watch the bar and the bank test change. The two thin layers are not to scale: they are drawn taller than their dollars so you can read them.</p>
+  <p class="fig-stack-nojs">Scripts are off, so you see the <span data-k="stack.a.multiple" data-f="x1">4.0x</span> case. The price slider and the investor switch need JavaScript.</p>
+  <div class="fig-stack-controls" id="fig-stack-controls">
+    <div class="range fig-stack-range">
+      <label for="fig-stack-mult">Price paid (times EBITDA)</label>
+      <output id="fig-stack-out" for="fig-stack-mult" aria-live="off"><span class="fig-stack-ox" id="fig-stack-ox" data-k="stack.a.multiple" data-f="x2">4.00x</span><span class="fig-stack-op" id="fig-stack-op" data-k="stack.a.price" data-f="M2">$4.00M</span></output>
+      <div class="fig-stack-track" id="fig-stack-track">
+        <span class="fig-stack-zone fig-stack-zone-ok" aria-hidden="true"></span>
+        <span class="fig-stack-zone fig-stack-zone-no" aria-hidden="true"></span>
+        <input type="range" id="fig-stack-mult" min="3.5" max="5.5" step="0.25" value="4">
+        <span class="fig-stack-tick" aria-hidden="true"></span>
+        <span class="fig-stack-tickl" id="fig-stack-tickl">Highest price that passes: <span data-k="stack.d.multiple" data-f="x2">4.28x</span></span>
+      </div>
+    </div>
+    <div class="seg fig-stack-seg" role="group" aria-label="Who covers the gap">
+      <button type="button" aria-pressed="true" data-mode="off">Without investors</button>
+      <button type="button" aria-pressed="false" data-mode="on">Investors fill the gap</button>
+    </div>
+    <p class="fig-stack-sba">One reading of the current SBA rules; confirm with your lender.</p>
+  </div>
+  <div class="chart fig-stack-chart" id="fig-stack-chart" role="img" aria-label="Stacked bar of who pays for the company, with the bank test beside it. The numbers change when the price slider or the investor switch moves.">
+    <div class="fig-stack-board">
+      <div class="fig-stack-test">
+        <div class="fig-stack-thead">
+          <p class="fig-stack-h">The bank test</p>
+          <p class="fig-stack-badge is-pass" id="fig-stack-badge"><svg class="fig-stack-ic fig-stack-ic-ok" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M4 10.5l4 4 8-9"/></svg><svg class="fig-stack-ic fig-stack-ic-no" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5 5l10 10M15 5L5 15"/></svg><span id="fig-stack-bw">Passes</span></p>
+        </div>
+        <p class="fig-stack-dscr"><span class="fig-stack-dk">DSCR</span> <span class="fig-stack-dv" id="fig-stack-dv" data-k="stack.a.dscr" data-f="x2">1.33x</span> <span class="fig-stack-df">lenders want at least <span data-k="inputs.dscr_floor" data-f="x2">1.25x</span></span></p>
+        <p class="fig-stack-def">DSCR (debt service coverage ratio) is the cash left for lenders divided by the yearly loan payment.</p>
+        <div class="fig-stack-brow">
+          <p class="fig-stack-bh"><span>Cash for lenders each year</span><b data-k="cfads" data-f="K0">$800K</b></p>
+          <span class="fig-stack-bt"><span class="fig-stack-bf fig-stack-bf-cash" id="fig-stack-bf-cash" style="--w:72.7"></span></span>
+        </div>
+        <div class="fig-stack-brow">
+          <p class="fig-stack-bh"><span>Yearly loan payment</span><b id="fig-stack-pay" data-k="stack.a.annual_sba_payment" data-f="K0">$600K</b></p>
+          <span class="fig-stack-bt"><span class="fig-stack-bf fig-stack-bf-pay" id="fig-stack-bf-pay" style="--w:54.6"></span><span class="fig-stack-bf fig-stack-bf-cush" id="fig-stack-bf-cush" style="--x:54.6;--w:13.6"></span><span class="fig-stack-bf fig-stack-bf-gap is-room" id="fig-stack-bf-gap" style="--x:68.2;--w:4.5"></span></span>
+        </div>
+        <p class="fig-stack-gl is-room" id="fig-stack-gl">Room to spare</p>
+        <p class="fig-stack-key">Dashed: the cushion lenders want on top of the payment, <span data-k="inputs.dscr_floor" data-f="raw">1.25</span> times the payment in all.</p>
+        <p class="fig-stack-capmsg" id="fig-stack-capmsg" hidden>Over the SBA 7(a) loan limit of <span data-k="inputs.sba_cap" data-f="M1">$5.0M</span>. One reading of the current SBA rules; confirm with your lender.</p>
+      </div>
+      <div class="fig-stack-bargrp">
+        <p class="fig-stack-h">What it takes: <span id="fig-stack-total" data-k="stack.a.project_cost" data-f="M2">$4.25M</span></p>
+        <p class="fig-stack-hs">Price <span id="fig-stack-price" data-k="stack.a.price" data-f="M2">$4.00M</span> plus <span data-k="inputs.closing_and_reserve" data-f="K0">$250K</span> of fees and a cash cushion. Each layer shows dollars and its share of the project.</p>
+        <ol class="fig-stack-layers" id="fig-stack-layers">
+          <li class="fig-stack-layer fig-stack-l-loan" data-layer="loan" style="--f:.6652"><span class="fig-stack-blk"></span><span class="fig-stack-lab"><span class="fig-stack-nm">SBA loan</span> <span class="fig-stack-amt" data-k="stack.a.sba_loan" data-f="M2">$3.83M</span>, <span class="fig-stack-shr" data-k="stack.a.sba_share_of_project_pct" data-f="p0">90%</span></span></li>
+          <li class="fig-stack-layer fig-stack-l-note" data-layer="note" style="--f:.037"><span class="fig-stack-blk"></span><span class="fig-stack-lab"><span class="fig-stack-nm">Seller note</span> <span class="fig-stack-amt" data-k="stack.a.standby_seller_note" data-f="K0">$213K</span>, <span class="fig-stack-shr" data-k="inputs.own_cash_pct" data-f="p0">5%</span></span></li>
+          <li class="fig-stack-layer fig-stack-l-inv is-off" data-layer="inv" style="--f:0" aria-hidden="true"><span class="fig-stack-blk"></span><span class="fig-stack-lab"><span class="fig-stack-nm">Investors</span> <span class="fig-stack-amt" data-k="stack.a.investor_equity" data-f="K0">$0K</span>, <span class="fig-stack-shr"></span></span></li>
+          <li class="fig-stack-layer fig-stack-l-cash" data-layer="cash" style="--f:.037"><span class="fig-stack-blk"></span><span class="fig-stack-lab"><span class="fig-stack-nm">Buyer cash</span> <span class="fig-stack-amt" data-k="stack.a.buyer_cash" data-f="K0">$213K</span>, <span class="fig-stack-shr" data-k="inputs.own_cash_pct" data-f="p0">5%</span></span></li>
+        </ol>
+        <div class="fig-stack-own" id="fig-stack-own" hidden>
+          <p class="fig-stack-own1">Buyer owns <b id="fig-stack-ob" data-k="stack.c.buyer_common_pct" data-f="p1">74.1%</b>, investors <b id="fig-stack-oi" data-k="stack.c.investor_common_pct" data-f="p1">25.9%</b></p>
+          <p class="fig-stack-own2">Illustrative rule: investors own <span data-k="inputs.step_up" data-f="x1">2.0x</span> their dollars as a share of the price, and the buyer keeps the rest.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fallback"><!-- TABLE:sens --><!-- TABLE:stack --></div>
+  <div class="sr-only" id="fig-stack-live" aria-live="polite"></div>
+  <p class="fig-stack-gloss">EBITDA is a company's yearly profit before interest, taxes, depreciation and amortization, a rough measure of its cash profit. A multiple is the price divided by EBITDA. Buyer cash is the buyer's own money. A seller note is part of the price, paid later. Investors are outside people who put in ownership money so the bank loan can be smaller. The SBA 7(a) loan is a bank loan partly guaranteed by the U.S. Small Business Administration.</p>
+  <figcaption>Illustrative company: <span data-k="inputs.ebitda" data-f="M1">$1.0M</span> of EBITDA on <span data-k="inputs.revenue" data-f="M1">$5.0M</span> of revenue, with <span data-k="inputs.closing_and_reserve" data-f="K0">$250K</span> of closing costs and cash cushion. Loan: <span data-k="inputs.sba_rate_pct" data-f="raw">9.75</span>% interest over <span data-k="inputs.sba_years" data-f="n0">10</span> years. Cash for lenders is EBITDA after cash taxes (<span data-k="inputs.tax_share_pct" data-f="p0">10%</span> of EBITDA) and equipment spending (<span data-k="inputs.capex_share_pct" data-f="p0">2%</span> of revenue). The equity injection, the buyer's own money that the lender requires, is <span data-k="inputs.injection_pct" data-f="p0">10%</span> of the project: the buyer's cash is <span data-k="inputs.own_cash_pct" data-f="p0">5%</span> and the seller note makes up the rest. Source: the author's illustrative model (model/lbo_model.py in the repo); the split follows one SBA loan broker's reading of SOP 50 10 8.1, the SBA's rulebook for lenders. One reading of the current SBA rules; confirm with your lender.</figcaption>
+</figure>

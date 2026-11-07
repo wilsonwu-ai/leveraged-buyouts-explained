@@ -1,0 +1,113 @@
+/* charts-a.css: model charts for fig-qoe, fig-day1 and fig-bridge.
+   Every rule is scoped under a figure id and uses only CSS variables, so dark mode follows the page tokens.
+   SVG is drawn 1 unit = 1 CSS px, so the font sizes below are the rendered sizes (never under 13px). */
+
+/* ---------- shared ---------- */
+#fig-qoe .chart:not(.is-ready),
+#fig-day1 .chart:not(.is-ready),
+#fig-bridge .chart:not(.is-ready) { min-height: 0; }
+#fig-qoe .chart svg,
+#fig-day1 .chart svg,
+#fig-bridge .chart svg { touch-action: pan-y; }
+#fig-qoe [hidden], #fig-day1 [hidden], #fig-bridge [hidden] { display: none; }
+
+#fig-day1 .seg button,
+#fig-bridge .seg button { min-height: 44px; padding: 8px 10px; border: 1.5px solid var(--line); border-radius: 12px;
+  background: var(--surface); color: var(--ink); font: 600 15px/1.25 var(--sans); text-align: center; cursor: pointer; }
+#fig-day1 .seg button:hover,
+#fig-bridge .seg button:hover { border-color: var(--ink); }
+#fig-day1 .seg button[aria-pressed="true"],
+#fig-bridge .seg button[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+
+/* ================= fig-qoe ================= */
+#fig-qoe .fig-qoe-lbl,
+#fig-qoe .fig-qoe-val { font-size: 14px; fill: var(--ink);
+  paint-order: stroke; stroke: var(--surface); stroke-width: 4px; stroke-linejoin: round; }
+#fig-qoe .fig-qoe-val,
+#fig-qoe .fig-qoe-hdr,
+#fig-qoe .fig-qoe-gtxt,
+#fig-qoe .fig-qoe-over { font-weight: 600; }
+#fig-qoe .fig-qoe-hdr,
+#fig-qoe .fig-qoe-gtxt,
+#fig-qoe .fig-qoe-over { font-size: 14px; fill: var(--ink); }
+#fig-qoe .fig-qoe-gtxt { text-anchor: middle; }
+#fig-qoe .fig-qoe-conn { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 2 3; }
+#fig-qoe .fig-qoe-div { stroke: var(--line); stroke-width: 1; }
+#fig-qoe .fig-qoe-b-claim { fill: var(--seller); }
+#fig-qoe .fig-qoe-b-real { fill: var(--cash); }
+#fig-qoe .fig-qoe-b-step { fill: var(--fail); fill-opacity: .22; stroke: var(--fail); stroke-width: 1.5; }
+#fig-qoe .fig-qoe-ghost { fill: var(--seller-wash); stroke: var(--seller); stroke-width: 1.5; stroke-dasharray: 4 3; }
+#fig-qoe .fig-qoe-callout { margin: 12px 0 0; padding: 10px 12px; border-left: 4px solid var(--seller);
+  background: var(--seller-wash); border-radius: 0 8px 8px 0; font-size: 15px; line-height: 1.5; color: var(--ink); }
+#fig-qoe .fig-qoe-gloss { margin: 12px 0 0; font-size: 14px; line-height: 1.5; color: var(--muted); }
+
+/* ================= fig-day1 ================= */
+#fig-day1 .fig-day1-controls { margin: 0 0 8px; }
+#fig-day1 .fig-day1-seg { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin: 0 0 8px; }
+#fig-day1 .fig-day1-seg button:first-child { grid-column: 1 / -1; }
+@media (min-width: 560px) {
+  #fig-day1 .fig-day1-seg { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  #fig-day1 .fig-day1-seg button:first-child { grid-column: auto; }
+}
+#fig-day1 .fig-day1-grid { stroke: var(--line); stroke-width: 1; }
+#fig-day1 .fig-day1-axis { stroke: var(--muted); stroke-width: 1; }
+#fig-day1 .fig-day1-zero { stroke: var(--ink); stroke-width: 2; }
+#fig-day1 .fig-day1-tick,
+#fig-day1 .fig-day1-axt { font-size: 13px; fill: var(--muted); }
+#fig-day1 .fig-day1-zlab { font-size: 13px; font-weight: 600; fill: var(--ink); }
+#fig-day1 .fig-day1-line { fill: none; stroke-width: 3.5; stroke-linejoin: round; stroke-linecap: round; }
+#fig-day1 .fig-day1-peg { stroke: var(--cash); }
+#fig-day1 .fig-day1-no { stroke: var(--seller); }
+#fig-day1 .fig-day1-area { fill: var(--fail); fill-opacity: .14; stroke: none; }
+#fig-day1 .fig-day1-dot { stroke: var(--surface); stroke-width: 2; }
+#fig-day1 .fig-day1-dot-start { fill: var(--ink); }
+#fig-day1 .fig-day1-dot-low { fill: var(--seller); }
+#fig-day1 .fig-day1-ring { fill: none; stroke: var(--seller); stroke-width: 2; }
+#fig-day1 .fig-day1-lead { stroke: var(--muted); stroke-width: 1; }
+#fig-day1 .fig-day1-sw-peg { fill: var(--cash); }
+#fig-day1 .fig-day1-sw-no { fill: var(--seller); }
+#fig-day1 .fig-day1-pay { stroke: var(--loan); stroke-width: 3; }
+#fig-day1 .fig-day1-tri { fill: var(--seller); }
+#fig-day1 .fig-day1-ann { font-size: 13px; fill: var(--ink);
+  paint-order: stroke; stroke: var(--surface); stroke-width: 3px; stroke-linejoin: round; }
+#fig-day1 .fig-day1-ann-b { font-weight: 600; }
+#fig-day1 .fig-day1-facts { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 6px; font-size: 15px; line-height: 1.45; color: var(--ink); }
+#fig-day1 .fig-day1-facts li { margin: 0; padding: 0 0 0 12px; border-left: 3px solid var(--line); }
+#fig-day1 .fig-day1-callout { margin: 12px 0 0; padding: 10px 12px; border-left: 4px solid var(--ink);
+  background: var(--wash); border-radius: 0 8px 8px 0; font-size: 15px; line-height: 1.5; color: var(--ink); }
+
+/* ================= fig-bridge ================= */
+#fig-bridge .fig-bridge-controls { margin: 0 0 4px; }
+#fig-bridge .fig-bridge-seg { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin: 0 0 8px; }
+@media (min-width: 560px) {
+  #fig-bridge .fig-bridge-seg { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+#fig-bridge .fig-bridge-desc { margin: 0 0 8px; font-size: 15px; line-height: 1.45; color: var(--ink); min-height: 2.9em; }
+#fig-bridge .fig-bridge-grid { stroke: var(--line); stroke-width: 1; }
+#fig-bridge .fig-bridge-axis { stroke: var(--muted); stroke-width: 1; }
+#fig-bridge .fig-bridge-tick { font-size: 13px; fill: var(--muted); }
+#fig-bridge .fig-bridge-conn { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 2 3; }
+#fig-bridge .fig-bridge-lbl,
+#fig-bridge .fig-bridge-val,
+#fig-bridge .fig-bridge-sub,
+#fig-bridge .fig-bridge-none { font-size: 14px; fill: var(--ink);
+  paint-order: stroke; stroke: var(--surface); stroke-width: 4px; stroke-linejoin: round; }
+#fig-bridge .fig-bridge-val { font-weight: 600; }
+#fig-bridge .fig-bridge-sub { font-size: 13px; fill: var(--muted); }
+#fig-bridge .fig-bridge-none { font-weight: 600; }
+#fig-bridge .fig-bridge-b-total { fill: var(--muted); }
+#fig-bridge .fig-bridge-b-engine { fill: var(--surface); stroke: var(--muted); stroke-width: 2; }
+#fig-bridge .fig-bridge-b-loan { fill: var(--loan); }
+#fig-bridge .fig-bridge-b-seller { fill: var(--seller); }
+#fig-bridge .fig-bridge-b-owner { fill: var(--cash); }
+#fig-bridge .fig-bridge-result { margin: 4px 0 0; padding: 10px 12px; border-left: 4px solid var(--cash);
+  background: var(--cash-wash); border-radius: 0 8px 8px 0; font-size: 15px; line-height: 1.5; color: var(--ink); }
+#fig-bridge .fig-bridge-bust { border-left-color: var(--ink); background: var(--wash); }
+#fig-bridge .fig-bridge-dscr { margin: 10px 0 0; font-size: 15px; line-height: 1.7; color: var(--ink); }
+#fig-bridge .fig-bridge-badge { display: inline-flex; align-items: center; gap: 6px; padding: 2px 10px; margin-right: 4px;
+  border: 1.5px solid currentColor; border-radius: 999px; font-size: 14px; font-weight: 600; line-height: 1.5; vertical-align: 1px; }
+#fig-bridge .fig-bridge-pass { color: var(--pass); }
+#fig-bridge .fig-bridge-fail { color: var(--fail); }
+#fig-bridge .fig-bridge-badge svg { width: 14px; height: 14px; flex: 0 0 auto; overflow: visible; fill: none; stroke: currentColor;
+  stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+#fig-bridge .fig-bridge-gloss { margin: 12px 0 0; font-size: 14px; line-height: 1.5; color: var(--muted); }

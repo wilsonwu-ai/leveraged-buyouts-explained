@@ -1,0 +1,530 @@
+{
+ "intro": "Every number on this page comes from one of the sources below or from the illustrative model in the GitHub repository. The worked example is an illustrative company, not a real deal.",
+ "groups": [
+  {
+   "title": "Private equity and the small-business market",
+   "items": [
+    {
+     "id": "chase-2026",
+     "org": "JPMorgan Chase",
+     "title": "Local Snapshot: Most Small Business Owners Aren't Prepared for Succession",
+     "date": "4 May 2026",
+     "url": "https://media.chase.com/news/local-snapshot-succession-survey"
+    },
+    {
+     "id": "bizbuysell-q3",
+     "org": "BizBuySell (press release via Business Wire)",
+     "title": "Q3 2026 Insight Report",
+     "date": "20 October 2026",
+     "url": "https://finviz.com/news/404656/bizbuysell-releases-q3-2026-insight-report"
+    },
+    {
+     "id": "bain-2026",
+     "org": "Bain & Company",
+     "title": "Private Equity Outlook 2026: Gaining Traction",
+     "date": "2026",
+     "url": "https://www.bain.com/insights/outlook-gaining-traction-global-private-equity-report-2026/"
+    },
+    {
+     "id": "gain-2026",
+     "org": "Gain",
+     "title": "Private Equity Value Creation Report 2026",
+     "date": "6 November 2026",
+     "url": "https://www.gain.ai/insight-reports/private-equity-value-creation-report-2026"
+    },
+    {
+     "id": "bain-midyear",
+     "org": "The Consulting Report",
+     "title": "Bain says market shocks have slowed private equity recovery",
+     "date": "25 June 2026",
+     "url": "https://www.theconsultingreport.com/bain-says-market-shocks-have-slowed-private-equity-recovery/"
+    },
+    {
+     "id": "gfdata-q2",
+     "org": "Association for Corporate Growth",
+     "title": "GF Data Reports Show Steady Middle-Market Deal Flow Amid More Selective Financing Conditions in Q2",
+     "date": "27 August 2026",
+     "url": "https://www.acg.org/news-trends/news/gf-data-reports-show-steady-middle-market-deal-flow-amid-more-selective"
+    }
+   ]
+  },
+  {
+   "title": "Search funds and how deals work",
+   "items": [
+    {
+     "id": "stanford-2026",
+     "org": "Stanford Graduate School of Business",
+     "title": "Search funds keep offering a proven path to ownership",
+     "date": "13 July 2026",
+     "url": "https://gsb.stanford.edu/insights/search-funds-keep-offering-proven-path-ownership"
+    },
+    {
+     "id": "calder-stanford",
+     "org": "Calder Group",
+     "title": "Acquisition search is getting harder: takeaways from Stanford's 2026 Search Fund Study",
+     "date": "2026",
+     "url": "https://caldergr.com/acquisition-search-is-getting-harder-takeaways-from-stanfords-2026-search-fund-study"
+    },
+    {
+     "id": "iese-2026",
+     "org": "IESE Insight",
+     "title": "Search funds record expansion",
+     "date": "14 October 2026",
+     "url": "https://www.iese.edu/insight/articles/search-funds-record-expansion/"
+    },
+    {
+     "id": "gosba-self-funded",
+     "org": "GoSBA Loans",
+     "title": "Self-Funded Search: How to Buy a Business with SBA Financing",
+     "date": "2 February 2026",
+     "url": "https://gosbaloans.com/?p=9640"
+    },
+    {
+     "id": "revision-indep",
+     "org": "Revision Legal",
+     "title": "What Is an Independent Sponsor?",
+     "date": "20 October 2026",
+     "url": "https://revisionlegal.com/corporate/business-law/what-is-an-independent-sponsor/"
+    },
+    {
+     "id": "ibba-q2",
+     "org": "IBBA and M&A Source",
+     "title": "Market Pulse Survey, Q2 2026 Highlights",
+     "date": "August 2026",
+     "url": "https://www.ibba.org/wp-content/uploads/2026/08/mp-highlights-q2-2026.pdf"
+    },
+    {
+     "id": "ct-fees",
+     "org": "CT Acquisitions",
+     "title": "How Much Do M&A Advisors Charge? A 2026 Guide",
+     "date": "June 2026",
+     "url": "https://www.ctacquisitions.com/ma-advisor-fees-how-much-do-they-charge/"
+    },
+    {
+     "id": "bdemerson-process",
+     "org": "BD Emerson",
+     "title": "The Sell-Side M&A Process: Preparation Through Close",
+     "date": "7 September 2026",
+     "url": "https://www.bdemerson.com/article/sell-side-ma-process"
+    },
+    {
+     "id": "surge-sba",
+     "org": "Surge Business Law",
+     "title": "Buying a Business with an SBA Loan",
+     "date": "11 March 2026",
+     "url": "https://surge.law/buying-a-business-with-sba-loan/"
+    },
+    {
+     "id": "bdemerson-dd",
+     "org": "BD Emerson",
+     "title": "Private Equity Due Diligence Checklist",
+     "date": "8 October 2026",
+     "url": "https://www.bdemerson.com/article/private-equity-due-diligence"
+    },
+    {
+     "id": "bdemerson-qoe",
+     "org": "BD Emerson",
+     "title": "How Much Does a Quality of Earnings Report Cost?",
+     "date": "25 July 2026",
+     "url": "https://www.bdemerson.com/article/quality-of-earnings-report-cost"
+    },
+    {
+     "id": "lws-asset-stock",
+     "org": "Liff, Walsh & Simmons (via Legal 500)",
+     "title": "Stock Purchase vs. Asset Purchase: A Legal Perspective For Buyers",
+     "date": "3 October 2024",
+     "url": "https://www.legal500.com/intelligence/united-states/corporate-commercial-law/stock-purchase-vs-asset-purchase-a-legal-perspective-for-buyers"
+    },
+    {
+     "id": "srs-fasken",
+     "org": "Fasken (via Legal 500)",
+     "title": "Private M&A deal trends to watch: key takeaways from SRS Acquiom's 2026 study",
+     "date": "12 May 2026",
+     "url": "https://www.legal500.com/intelligence/canada/corporate-commercial-law/private-m%26a-deal-trends-to-watch-key-takeaways-from-srs-acquiom%E2%80%99s-2026-study"
+    },
+    {
+     "id": "bdemerson-rwi",
+     "org": "BD Emerson",
+     "title": "Representations and Warranties Insurance",
+     "date": "24 September 2026",
+     "url": "https://www.bdemerson.com/article/representations-and-warranties-insurance"
+    },
+    {
+     "id": "bdemerson-day1",
+     "org": "BD Emerson",
+     "title": "M&A Day 1 Readiness Checklist",
+     "date": "23 October 2026",
+     "url": "https://www.bdemerson.com/article/day-1-readiness-checklist"
+    },
+    {
+     "id": "darden-100",
+     "org": "UVA Darden School of Business",
+     "title": "From Buyer to Boss: What Every New CEO Needs to Know",
+     "date": "19 November 2025",
+     "url": "https://news.darden.virginia.edu/roadmap-for-new-business-owners"
+    },
+    {
+     "id": "rsm-value",
+     "org": "RSM US",
+     "title": "What drives business value? 7 factors that owners control",
+     "date": "11 September 2026",
+     "url": "https://www.rsmus.com/insights/services/business-tax/how-owners-drive-business-value"
+    },
+    {
+     "id": "fredlaw-life-cycle",
+     "org": "Fredrikson & Byron",
+     "title": "Search Funds: The Life Cycle",
+     "date": "17 November 2025",
+     "url": "https://www.fredlaw.com/alert-search-funds-the-life-cycle"
+    },
+    {
+     "id": "ibba-pr-q2",
+     "org": "IBBA and M&A Source (PR Newswire, via Webull)",
+     "title": "The Market Pulse Survey Q2 2026 Reports the Latest Trends in Business Sales up to $50M",
+     "date": "25 August 2026",
+     "url": "https://www.webull.com/news/15462423712777216"
+    }
+   ]
+  },
+  {
+   "title": "SBA loans and interest rates",
+   "items": [
+    {
+     "id": "sba-fy26",
+     "org": "U.S. Small Business Administration",
+     "title": "SBA Fuels Main Street Growth: $100 Billion Delivered in FY26 (News Release 26-113)",
+     "date": "2 November 2026",
+     "url": "https://legacy.sba.gov/article/2026/11/02/sba-fuels-main-street-growth-100-billion-delivered-fy26"
+    },
+    {
+     "id": "pilieromazza",
+     "org": "PilieroMazza",
+     "title": "Five SBA 7(a) Changes that Could Reshape Business Acquisitions",
+     "date": "24 August 2026",
+     "url": "https://pilieromazza.com/five-sba-7a-changes-that-could-reshape-business-acquisitions"
+    },
+    {
+     "id": "sba-notice-81",
+     "org": "U.S. Small Business Administration",
+     "title": "Information Notice 5000-880695: Issuance of SOP 50 10 8.1",
+     "date": "14 August 2026",
+     "url": "https://legacy.sba.gov/document/information-notice-5000-880695-issuance-sop-50-10-81"
+    },
+    {
+     "id": "sba-10m",
+     "org": "U.S. Small Business Administration",
+     "title": "SBA Doubles Cumulative 7(a) and 504 Loan Limit to $10 Million",
+     "date": "18 May 2026",
+     "url": "https://www.sba.gov/article/2026/05/18/sba-doubles-cumulative-7a-504-loan-limit-10-million"
+    },
+    {
+     "id": "fed-h15",
+     "org": "Federal Reserve",
+     "title": "H.15 Selected Interest Rates",
+     "date": "6 November 2026",
+     "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+     "id": "starfield-81",
+     "org": "Starfield & Smith",
+     "title": "Best Practices: Change of Ownership Transactions Under SOP 50 10 8.1: What SBA Lenders Need to Know",
+     "date": "9 September 2026",
+     "url": "https://starfieldsmith.com/2026/09/best-practices-change-of-ownership-transactions-under-sop-50-10-8-1-what-sba-lenders-need-to-know/"
+    },
+    {
+     "id": "sba-buy-guide",
+     "org": "U.S. Small Business Administration",
+     "title": "Buy an existing business or franchise",
+     "date": "",
+     "url": "https://www.sba.gov/business-guide/plan-your-business/buy-existing-business-or-franchise"
+    },
+    {
+     "id": "byline-wc",
+     "org": "Byline Bank",
+     "title": "Self-Funded Search Acquisition Loans",
+     "date": "",
+     "url": "https://www.bylinebank.com/?p=12073"
+    },
+    {
+     "id": "sba-fy25",
+     "org": "U.S. Small Business Administration",
+     "title": "Trump SBA Delivers Record Capital to Small Businesses in FY25",
+     "date": "30 September 2025",
+     "url": "https://legacy.sba.gov/article/2025/09/30/trump-sba-delivers-record-capital-small-businesses-fy25"
+    },
+    {
+     "id": "sba-7a-page",
+     "org": "U.S. Small Business Administration",
+     "title": "7(a) loans",
+     "date": "read 7 November 2026",
+     "url": "https://www.sba.gov/funding-programs/loans/7a-loans"
+    }
+   ]
+  },
+  {
+   "title": "AI and the new holding companies",
+   "items": [
+    {
+     "id": "techcrunch-gc",
+     "org": "TechCrunch",
+     "title": "The AI services transformation may be harder than VCs think",
+     "date": "28 September 2025",
+     "url": "https://techcrunch.com/2025/09/28/the-ai-services-transformation-may-be-harder-than-vcs-think/"
+    },
+    {
+     "id": "longlake-gbt",
+     "org": "Long Lake (via Business Wire)",
+     "title": "Long Lake agrees to acquire American Express Global Business Travel for $6.3 billion",
+     "date": "4 May 2026",
+     "url": "https://www.financialcontent.com/article/bizwire-2026-5-4-long-lake-agrees-to-acquire-american-express-global-business-travel-the-worlds-largest-corporate-travel-platform-for-63-billion-with-support-from-general-catalyst-and-alpha-wave"
+    },
+    {
+     "id": "bain-genai-2025",
+     "org": "Bain & Company",
+     "title": "Field Notes from the Generative AI Insurgency (Global Private Equity Report 2025)",
+     "date": "3 March 2025",
+     "url": "https://www.bain.com/insights/field-notes-from-generative-ai-insurgency-global-private-equity-report-2025/"
+    }
+   ]
+  },
+  {
+   "title": "News",
+   "note": "Paraphrased. The New York Times and The Economist were read through a university library.",
+   "items": [
+    {
+     "id": "ft-grows-up",
+     "org": "Financial Times",
+     "title": "Private equity grows up",
+     "date": "29 October 2026",
+     "url": "https://www.ft.com/content/b36c5561-b601-48f4-bdbc-9a2227a958fa"
+    },
+    {
+     "id": "ft-permira",
+     "org": "Financial Times",
+     "title": "Private equity can cut 'best' deals in current climate, says Permira boss",
+     "date": "11 October 2026",
+     "url": "https://www.ft.com/content/b42bb760-3eda-430d-adfd-69c359425c1d"
+    },
+    {
+     "id": "ft-borrowing",
+     "org": "Financial Times",
+     "title": "Surge in borrowing costs hits corporate America",
+     "date": "6 October 2026",
+     "url": "https://www.ft.com/content/7c7ccb82-2973-47af-ad9b-b469c6ea0048"
+    },
+    {
+     "id": "ft-soft-defaults",
+     "org": "Financial Times (Unhedged)",
+     "title": "Private credit's 'soft' defaults",
+     "date": "23 September 2026",
+     "url": "https://www.ft.com/content/04c5abf0-d7c4-47ca-9391-4a154c14e178"
+    },
+    {
+     "id": "ft-thrive-adt",
+     "org": "Financial Times",
+     "title": "Josh Kushner's Thrive Holdings to buy home security firm ADT in $15.3bn deal",
+     "date": "29 October 2026",
+     "url": "https://www.ft.com/content/f88e30a0-1252-4695-97b0-03da22e5fd42"
+    },
+    {
+     "id": "ft-anthropic-hg",
+     "org": "Financial Times",
+     "title": "Anthropic strikes deal to launch European consultancy",
+     "date": "23 October 2026",
+     "url": "https://www.ft.com/content/df70bf20-e809-48d0-8485-f8f514a7fbc4"
+    },
+    {
+     "id": "ft-ai-agents",
+     "org": "Financial Times",
+     "title": "Plan for AI 'agents' to run US companies challenged by lawmakers",
+     "date": "26 October 2026",
+     "url": "https://www.ft.com/content/d5021cdf-816e-4cb9-bbf9-e4ba816a004f"
+    },
+    {
+     "id": "wsj-holds",
+     "org": "The Wall Street Journal",
+     "title": "Buyout Firms Look to Swap Out Portfolio Company CEOs as Holds Lengthen",
+     "date": "21 October 2026",
+     "url": "https://www.wsj.com/pro/private-equity/buyout-firms-look-to-swap-out-portfolio-company-ceos-as-holds-lengthen-7906e3e2"
+    },
+    {
+     "id": "wsj-debt-wall",
+     "org": "The Wall Street Journal",
+     "title": "A $300 Billion 'Debt Wall' Is Looming Over Private-Equity Backed Companies",
+     "date": "27 October 2026",
+     "url": "https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497"
+    },
+    {
+     "id": "wsj-thrive-adt",
+     "org": "The Wall Street Journal",
+     "title": "Why Josh Kushner's Firm Just Spent $7.6 Billion on ADT, a 150-Year-Old Home-Security Company",
+     "date": "29 October 2026",
+     "url": "https://www.wsj.com/finance/investing/why-josh-kushners-firm-just-spent-7-6-billion-on-a-150-year-old-company-8bfdd9f8"
+    },
+    {
+     "id": "wsj-laundromat",
+     "org": "The Wall Street Journal",
+     "title": "The Internet Told Them Owning a Laundromat Was Easy Money. It Was Anything But.",
+     "date": "19 October 2026",
+     "url": "https://www.wsj.com/business/the-internet-told-them-owning-a-laundromat-was-easy-money-it-was-anything-but-2ca220c7"
+    },
+    {
+     "id": "nyt-boring",
+     "org": "The New York Times",
+     "title": "In Search of a Boring Business",
+     "date": "12 March 2025",
+     "via": "read through a university library"
+    },
+    {
+     "id": "nyt-unsold",
+     "org": "The New York Times",
+     "title": "Private Equity Is Stuck With 33,575 Unsold Businesses",
+     "date": "10 August 2026",
+     "via": "read through a university library"
+    },
+    {
+     "id": "nyt-dealbook",
+     "org": "The New York Times (DealBook)",
+     "title": "Private Equity's Private Credit Problem",
+     "date": "12 March 2026",
+     "via": "read through a university library"
+    },
+    {
+     "id": "nyt-renovo",
+     "org": "The New York Times",
+     "title": "How Private Equity's Vision for a Roofing Conglomerate Went Bust",
+     "date": "13 November 2025",
+     "via": "read through a university library"
+    },
+    {
+     "id": "nyt-rot",
+     "org": "The New York Times",
+     "title": "Investors Warn of 'Rot in Private Equity' as Funds Strike Circular Deals",
+     "date": "24 December 2025",
+     "via": "read through a university library"
+    },
+    {
+     "id": "econ-ai-problem",
+     "org": "The Economist",
+     "title": "Private-equity barons have a giant AI problem",
+     "date": "12 February 2026",
+     "via": "read through a university library"
+    }
+   ]
+  },
+  {
+   "title": "The two industries I am exploring",
+   "items": [
+    {
+     "id": "bls-electricians",
+     "org": "U.S. Bureau of Labor Statistics",
+     "title": "Occupational Outlook Handbook: Electricians",
+     "date": "2026",
+     "url": "https://www.bls.gov/ooh/construction-and-extraction/electricians.htm"
+    },
+    {
+     "id": "meta-nuclear",
+     "org": "Meta",
+     "title": "Meta's nuclear energy projects",
+     "date": "January 2026",
+     "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/"
+    },
+    {
+     "id": "salem-rfp",
+     "org": "Salem State University",
+     "title": "RFP 2026-03: Athletics Apparel, Supplies and Uniforms",
+     "date": "October 2025",
+     "url": "https://records.salemstate.edu/sites/default/files/rfp/2025-10/RFP%202026-03%20Athletics%20Apparel%20Supplies%20and%20Uniforms.pdf"
+    }
+   ]
+  },
+  {
+   "title": "Social media and forums",
+   "note": "Themes from public posts and threads, read on 7 November 2026. Only public figures are named. Reddit could not be read directly; its themes come from search results and are anecdotal.",
+   "items": [
+    {
+     "id": "hn-search-fund",
+     "org": "Hacker News (Algolia search)",
+     "title": "Stories mentioning \"search fund\" since 1 January 2025",
+     "date": "run 7 November 2026",
+     "url": "https://hn.algolia.com/api/v1/search?query=%22search%20fund%22&tags=story&numericFilters=created_at_i%3E1735689600"
+    },
+    {
+     "id": "hn-essential",
+     "org": "Hacker News",
+     "title": "Private equity bought America's essential services (thread)",
+     "date": "27 May 2026",
+     "url": "https://news.ycombinator.com/item?id=48292941"
+    },
+    {
+     "id": "hn-debt-wall",
+     "org": "Hacker News",
+     "title": "A $300B 'debt wall' is looming over private-equity backed companies (thread)",
+     "date": "27 October 2026",
+     "url": "https://news.ycombinator.com/item?id=50260526"
+    },
+    {
+     "id": "hn-sba-loan",
+     "org": "Hacker News (Algolia search)",
+     "title": "Comments mentioning \"SBA loan\" since 1 January 2025",
+     "date": "run 7 November 2026",
+     "url": "https://hn.algolia.com/api/v1/search?query=%22SBA%20loan%22&tags=comment&numericFilters=created_at_i%3E1735689600"
+    },
+    {
+     "id": "x-search",
+     "org": "X (search results, Top tab)",
+     "title": "Posts on search funds, ETA, AI roll-ups, SBA loans and boring businesses since 1 January 2026",
+     "date": "read 7 November 2026",
+     "url": "https://x.com/search?q=%22search%20fund%22%20since%3A2026-01-01&f=top"
+    },
+    {
+     "id": "x-codie-sba",
+     "org": "Codie Sanchez on X",
+     "title": "Post on buying a cash-flowing business with an SBA loan",
+     "date": "25 June 2026",
+     "url": "https://x.com/Codie_Sanchez/status/2070138483490857367"
+    },
+    {
+     "id": "x-codie-pe",
+     "org": "Codie Sanchez on X",
+     "title": "Post on private equity moving downmarket",
+     "date": "15 April 2026",
+     "url": "https://x.com/Codie_Sanchez/status/2044451958400983167"
+    },
+    {
+     "id": "x-isenberg",
+     "org": "Greg Isenberg on X",
+     "title": "\"$5T opportunity: AI Roll Ups\"",
+     "date": "26 September 2026",
+     "url": "https://x.com/gregisenberg/status/2103927365977928019"
+    },
+    {
+     "id": "x-gromen",
+     "org": "Luke Gromen on X",
+     "title": "Post on private equity roll-ups as a price umbrella",
+     "date": "11 October 2026",
+     "url": "https://x.com/LukeGromen/status/2109418244771627242"
+    }
+   ]
+  },
+  {
+   "title": "The illustrative model",
+   "items": [
+    {
+     "id": "model",
+     "org": "Wilson Wu",
+     "title": "Leveraged buyouts, explained: model and data (model/lbo_model.py)",
+     "date": "7 November 2026",
+     "url": "https://github.com/wilsonwu-ai/leveraged-buyouts-explained"
+    },
+    {
+     "id": "first-explainer",
+     "org": "Wilson Wu",
+     "title": "Buying a business, explained",
+     "date": "5 November 2026",
+     "url": "https://wilsonwu-ai.github.io/buying-a-business-explained/"
+    }
+   ]
+  }
+ ]
+}

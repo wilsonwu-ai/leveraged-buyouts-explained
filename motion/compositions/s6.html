@@ -1,0 +1,76 @@
+<template>
+<style>
+@font-face { font-family: 'Fraunces'; src: url('assets/fonts/fraunces-600.woff2') format('woff2'); font-weight: 600; }
+@font-face { font-family: 'Inter'; src: url('assets/fonts/inter-500.woff2') format('woff2'); font-weight: 500; }
+@font-face { font-family: 'Inter'; src: url('assets/fonts/inter-600.woff2') format('woff2'); font-weight: 600; }
+
+#root { position:absolute; inset:0; background:#F6F3EC; font-family:'Inter',sans-serif; font-weight:600; color:#10202F; overflow:hidden; }
+#root .wrap { position:absolute; inset:0; }
+#root .h { font-family:'Fraunces',serif; font-weight:600; position:absolute; line-height:1.08; letter-spacing:-0.01em; white-space:nowrap; }
+#root .t { position:absolute; font-weight:600; white-space:nowrap; line-height:1.1; }
+#root .n { position:absolute; font-weight:600; white-space:nowrap; line-height:1; letter-spacing:-0.025em; }
+#root .m { font-weight:500; }
+#root .box { position:absolute; }
+
+#root .tile { position:absolute; width:500px; height:260px; border-radius:24px; box-sizing:border-box; background:#FFFFFF; border:4px solid #E2DDD2; }
+#root .chip { position:absolute; height:88px; padding:0 8px; border-radius:44px; font-size:54px; font-weight:600; line-height:80px; box-sizing:border-box; white-space:nowrap; }
+</style>
+<div id="root" data-composition-id="s6" data-width="1920" data-height="1080">
+<div class="wrap" id="s6-wrap">
+<div class="h" id="s6-ttl" style="left:192px;top:84px;font-size:84px;color:#10202F;">Then improve the business</div>
+<div class="chip" id="s6-c1" style="left:192px;top:224px;width:430px;text-align:center;color:#10202F;background:#FFFFFF;border:4px solid #E2DDD2;">Better pricing</div>
+<div class="chip" id="s6-c2" style="left:648px;top:224px;width:603px;text-align:center;color:#10202F;background:#FFFFFF;border:4px solid #E2DDD2;">A real sales process</div>
+<div class="chip" id="s6-c3" style="left:1277px;top:224px;width:273px;text-align:center;color:#FFFFFF;background:#6B4FA0;border:4px solid #6B4FA0;">AI tools</div>
+<div class="tile" id="s6-t0" style="left:170px;top:360px;"></div>
+<div class="h" id="s6-d0" style="left:208px;top:394px;font-size:66px;color:#10202F;">Operations</div>
+<div class="t" id="s6-k0" style="left:208px;top:510px;font-size:58px;color:#FFFFFF;">Quoting</div>
+<div class="tile" id="s6-t1" style="left:710px;top:360px;"></div>
+<div class="h" id="s6-d1" style="left:748px;top:394px;font-size:66px;color:#10202F;">Sales</div>
+<div class="t" id="s6-k1" style="left:748px;top:510px;font-size:58px;color:#FFFFFF;">Follow-ups</div>
+<div class="tile" id="s6-t2" style="left:1250px;top:360px;"></div>
+<div class="h" id="s6-d2" style="left:1288px;top:394px;font-size:66px;color:#10202F;">Finance</div>
+<div class="t" id="s6-k2" style="left:1288px;top:510px;font-size:58px;color:#FFFFFF;">Billing</div>
+<div class="tile" id="s6-t3" style="left:170px;top:660px;"></div>
+<div class="h" id="s6-d3" style="left:208px;top:694px;font-size:66px;color:#10202F;">Accounting</div>
+<div class="t" id="s6-k3" style="left:208px;top:810px;font-size:58px;color:#FFFFFF;">Month-end</div>
+<div class="tile" id="s6-t4" style="left:710px;top:660px;"></div>
+<div class="h" id="s6-d4" style="left:748px;top:694px;font-size:66px;color:#10202F;">Reporting</div>
+<div class="t" id="s6-k4" style="left:748px;top:810px;font-size:58px;color:#FFFFFF;">Dashboards</div>
+<div class="tile" id="s6-t5" style="left:1250px;top:660px;border:4px dashed #10202F;background:transparent;"></div>
+<div class="h" id="s6-bet" style="left:1260px;top:712px;font-size:64px;color:#10202F;width:480px;text-align:center;">A bet,</div>
+<div class="h" id="s6-bet2" style="left:1260px;top:792px;font-size:64px;color:#10202F;width:480px;text-align:center;">not a promise.</div>
+</div>
+</div>
+<script>
+(function() {
+const tl = gsap.timeline({ paused: true });
+const D = 11.12;
+tl.fromTo('#s6-wrap', { opacity: 0 }, { opacity: 1, duration: 0.25, ease: 'power2.out' }, 0);
+tl.to('#s6-wrap', { opacity: 0, duration: 0.2, ease: 'power2.in' }, D - 0.2);
+tl.fromTo('#s6-ttl', { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.7, ease: 'power2.out' }, 0.250);
+tl.fromTo('#s6-c1', { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 2.240);
+tl.fromTo('#s6-c2', { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 3.350);
+tl.fromTo('#s6-c3', { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 4.980);
+tl.fromTo('#s6-t0,#s6-t1,#s6-t2,#s6-t3,#s6-t4,#s6-d0,#s6-d1,#s6-d2,#s6-d3,#s6-d4', { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out', stagger: 0.06 }, 5.230);
+tl.to('#s6-t0', { backgroundColor: '#6B4FA0', borderColor: '#6B4FA0', duration: 0.4, ease: 'power2.out' }, 5.800);
+tl.to('#s6-d0', { color: '#FFFFFF', duration: 0.4 }, 5.800);
+tl.fromTo('#s6-k0', { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.45, ease: 'power2.out' }, 5.920);
+tl.to('#s6-t1', { backgroundColor: '#6B4FA0', borderColor: '#6B4FA0', duration: 0.4, ease: 'power2.out' }, 6.550);
+tl.to('#s6-d1', { color: '#FFFFFF', duration: 0.4 }, 6.550);
+tl.fromTo('#s6-k1', { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.45, ease: 'power2.out' }, 6.670);
+tl.to('#s6-t2', { backgroundColor: '#6B4FA0', borderColor: '#6B4FA0', duration: 0.4, ease: 'power2.out' }, 7.390);
+tl.to('#s6-d2', { color: '#FFFFFF', duration: 0.4 }, 7.390);
+tl.fromTo('#s6-k2', { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.45, ease: 'power2.out' }, 7.510);
+tl.to('#s6-t3', { backgroundColor: '#6B4FA0', borderColor: '#6B4FA0', duration: 0.4, ease: 'power2.out' }, 8.020);
+tl.to('#s6-d3', { color: '#FFFFFF', duration: 0.4 }, 8.020);
+tl.fromTo('#s6-k3', { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.45, ease: 'power2.out' }, 8.140);
+tl.to('#s6-t4', { backgroundColor: '#6B4FA0', borderColor: '#6B4FA0', duration: 0.4, ease: 'power2.out' }, 7.930);
+tl.to('#s6-d4', { color: '#FFFFFF', duration: 0.4 }, 7.930);
+tl.fromTo('#s6-k4', { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.45, ease: 'power2.out' }, 8.050);
+tl.fromTo('#s6-t5', { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 8.750);
+tl.fromTo('#s6-bet', { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out' }, 8.900);
+tl.fromTo('#s6-bet2', { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out' }, 9.480);
+window.__timelines['s6'] = tl;
+})();
+</script>
+</template>

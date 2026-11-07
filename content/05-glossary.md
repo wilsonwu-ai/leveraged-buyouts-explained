@@ -1,0 +1,52 @@
+## Glossary {#glossary}
+
+- **Add-back**: An expense the seller says a new owner won't have, added back to profit.
+- **Add-on acquisition**: Buying a smaller company in the same field and folding it into the first.
+- **Agentic workflow**: A chain of steps in which AI software reads information, decides the next step and does routine work, with a person approving anything that matters.
+- **APA (asset purchase agreement)**: The contract for buying a company's assets rather than its shares.
+- **Business broker**: An advisor who sells small, owner-run companies for a commission paid by the seller.
+- **Buy side**: The buyer and the advisors working for the buyer.
+- **Capital stack**: Every source of money in a deal, drawn as layers from the safest at the bottom to the riskiest on top.
+- **CFADS**: Cash flow available for debt service, the cash a company has left for loan payments; $800K a year in the illustrative example.
+- **CIM**: Confidential information memorandum, the seller's detailed booklet about the company, shared after an NDA.
+- **Data room**: An online folder where the seller posts documents for the buyer to check.
+- **DSCR**: Debt service coverage ratio, cash available for loan payments divided by the payments; the illustrative example uses the 1.25x minimum that one law firm reads in the new SBA rules (confirm with your lender).
+- **Earnout**: Part of the price paid later, only if the business hits agreed targets.
+- **EBITDA**: Earnings before interest, taxes, depreciation and amortization, a rough measure of yearly operating profit.
+- **Equity injection**: The money the buyer's side puts in beneath the loan; one law firm reads the new SBA rules as requiring at least 10% (confirm with your lender).
+- **Escrow**: Part of the price held by a third party for a set time to cover claims against the seller.
+- **ETA**: Entrepreneurship through acquisition, becoming an entrepreneur by buying a business that already works instead of starting one.
+- **Exclusivity**: A period, usually starting at the LOI, when the seller agrees not to negotiate with other buyers.
+- **Full standby**: A seller note that receives no payments while the SBA loan is outstanding.
+- **Holdback**: Part of the price the buyer keeps back for a set time to cover claims against the seller.
+- **Indemnification**: The seller's promise to repay the buyer's losses if a statement in the purchase agreement turns out to be false.
+- **Independent sponsor**: A dealmaker without a fund who signs a deal first, then raises money for that one company.
+- **Investment banker**: An advisor who runs sales of larger companies, often as auctions.
+- **IOI**: Indication of interest, a non-binding price range a buyer offers early in a sale.
+- **IRR**: Internal rate of return, the yearly return on money, counting when it goes in and when it comes out.
+- **LBO**: Leveraged buyout, buying a company mostly with borrowed money that the company's own cash repays.
+- **Line of credit**: A loan you draw on when needed and repay as customers pay.
+- **LOI**: Letter of intent, a written offer that lays out the price and main terms. Most of it is not binding, but it usually starts exclusivity.
+- **MOIC**: Multiple on invested capital, money back divided by money in.
+- **Multiple**: The price divided by a year of earnings, so 4.0x on $1.0M of EBITDA is $4.0M.
+- **Multiple expansion**: Selling a company at a higher multiple than you paid for it.
+- **NDA**: Non-disclosure agreement, a promise to keep what you learn about a company private.
+- **Net working capital**: Receivables plus inventory minus what the company owes its suppliers: the money tied up in running the business.
+- **Non-compete**: The seller's promise not to compete with the business for a set time and area.
+- **Personal guarantee**: A promise to repay a loan from your own assets if the company can't.
+- **Prime rate**: The benchmark rate banks use to price many loans; 7.00% in the 6 November 2026 release from the [Federal Reserve](https://www.federalreserve.gov/releases/h15/).
+- **Private equity**: Money invested in companies that don't trade on a stock exchange, often through funds that buy, improve and sell them.
+- **Proprietary deal**: A company you find yourself, before the owner hires anyone to sell it.
+- **QoE**: Quality of earnings review, an accountant's check that the earnings are real and will repeat.
+- **Receivables**: Money customers owe for work already done.
+- **Reps and warranties**: The seller's written statements of fact about the business in the purchase agreement.
+- **SBA 7(a)**: The main loan program of the US Small Business Administration, in which a bank lends and the SBA guarantees part of the loan. A single 7(a) loan tops out at $5M ([SBA](https://www.sba.gov/funding-programs/loans/7a-loans)), and since 4 July 2026 a borrower can combine 7(a) and 504 loans for up to $10M ([SBA](https://www.sba.gov/article/2026/05/18/sba-doubles-cumulative-7a-504-loan-limit-10-million)); confirm with your lender.
+- **SDE**: Seller's discretionary earnings, profit plus the owner's own pay and perks, used to price owner-run businesses.
+- **Search fund**: A way for one searcher to raise money from investors for the hunt for one company, then buy it and run it.
+- **Sell side**: The seller and the advisors working for the seller.
+- **Seller note**: A loan from the seller to the buyer for part of the price.
+- **Senior debt**: The loan that gets repaid first; in the illustrative example, the SBA loan.
+- **Strategic buyer**: A company in the same industry that buys another for fit, such as more customers or territory.
+- **Teaser**: A short summary of a company for sale, usually one or two pages, without its name.
+- **Transition services**: The help a seller agrees to give after closing, such as introductions and training.
+- **Working capital peg**: The normal level of working capital the company must have at closing; the price adjusts if the real level differs.

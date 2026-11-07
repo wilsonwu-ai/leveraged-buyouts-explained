@@ -1,0 +1,1003 @@
+{
+ "inputs": {
+  "ebitda": 1000000,
+  "revenue": 5000000,
+  "tax_share_pct": 10.0,
+  "capex_share_pct": 2.0,
+  "closing_and_reserve": 250000,
+  "sba_rate_pct": 9.75,
+  "sba_years": 10,
+  "standby_rate_pct": 6.0,
+  "injection_pct": 10.0,
+  "own_cash_pct": 5.0,
+  "dscr_floor": 1.25,
+  "sba_cap": 5000000,
+  "pref_pct": 10.0,
+  "step_up": 2.0,
+  "entry_multiple": 4.0,
+  "hold_years": 6,
+  "closing_fees": 150000,
+  "reserve": 100000,
+  "dso_days": 45
+ },
+ "cfads": 800000.0,
+ "stack": {
+  "a": {
+   "price": 4000000,
+   "multiple": 4.0,
+   "project_cost": 4250000,
+   "closing_and_reserve": 250000,
+   "buyer_cash": 212500.0,
+   "standby_seller_note": 212500.0,
+   "investor_equity": 0.0,
+   "sba_loan": 3825000.0,
+   "seller_cash_at_close": 3787500.0,
+   "sba_share_of_project_pct": 90.0,
+   "annual_sba_payment": 600235.411707356,
+   "cfads": 800000.0,
+   "dscr": 1.3328104013797157,
+   "cash_left_after_payment": 199764.588292644,
+   "passes": true,
+   "sba_cap_ok": true
+  },
+  "b": {
+   "price": 5000000,
+   "multiple": 5.0,
+   "project_cost": 5250000,
+   "closing_and_reserve": 250000,
+   "buyer_cash": 262500.0,
+   "standby_seller_note": 262500.0,
+   "investor_equity": 0.0,
+   "sba_loan": 4725000.0,
+   "seller_cash_at_close": 4737500.0,
+   "sba_share_of_project_pct": 90.0,
+   "annual_sba_payment": 741467.2732855574,
+   "cfads": 800000.0,
+   "dscr": 1.0789417534978651,
+   "cash_left_after_payment": 58532.7267144426,
+   "passes": false,
+   "sba_cap_ok": true
+  },
+  "c": {
+   "price": 5000000,
+   "multiple": 5.0,
+   "project_cost": 5250000,
+   "closing_and_reserve": 250000,
+   "buyer_cash": 262500.0,
+   "standby_seller_note": 262500.0,
+   "investor_equity": 646600.1717780698,
+   "sba_loan": 4078399.82822193,
+   "seller_cash_at_close": 4737500.0,
+   "sba_share_of_project_pct": 77.68380625184629,
+   "annual_sba_payment": 640000.0,
+   "cfads": 800000.0,
+   "dscr": 1.25,
+   "cash_left_after_payment": 160000.0,
+   "passes": true,
+   "sba_cap_ok": true,
+   "investor_equity_needed": 646600.1717780698,
+   "investor_common_pct": 25.864006871122793,
+   "buyer_common_pct": 74.1359931288772
+  },
+  "d": {
+   "price": 4281555.364691033,
+   "multiple": 4.281555364691033,
+   "project_cost": 4531555.364691033,
+   "closing_and_reserve": 250000,
+   "buyer_cash": 226577.76823455165,
+   "standby_seller_note": 226577.76823455165,
+   "investor_equity": 0.0,
+   "sba_loan": 4078399.8282219293,
+   "seller_cash_at_close": 4054977.596456481,
+   "sba_share_of_project_pct": 89.99999999999999,
+   "annual_sba_payment": 639999.9999999999,
+   "cfads": 800000.0,
+   "dscr": 1.2500000000000002,
+   "cash_left_after_payment": 160000.00000000012,
+   "passes": true,
+   "sba_cap_ok": true
+  }
+ },
+ "sens": [
+  {
+   "multiple": 3.5,
+   "price": 3500000.0,
+   "sba_loan": 3375000.0,
+   "annual_sba_payment": 529619.4809182553,
+   "dscr": 1.510518454897011,
+   "passes": true
+  },
+  {
+   "multiple": 3.75,
+   "price": 3750000.0,
+   "sba_loan": 3600000.0,
+   "annual_sba_payment": 564927.4463128056,
+   "dscr": 1.4161110514659478,
+   "passes": true
+  },
+  {
+   "multiple": 4.0,
+   "price": 4000000.0,
+   "sba_loan": 3825000.0,
+   "annual_sba_payment": 600235.411707356,
+   "dscr": 1.3328104013797157,
+   "passes": true
+  },
+  {
+   "multiple": 4.25,
+   "price": 4250000.0,
+   "sba_loan": 4050000.0,
+   "annual_sba_payment": 635543.3771019063,
+   "dscr": 1.2587653790808426,
+   "passes": true
+  },
+  {
+   "multiple": 4.5,
+   "price": 4500000.0,
+   "sba_loan": 4275000.0,
+   "annual_sba_payment": 670851.3424964567,
+   "dscr": 1.192514569655535,
+   "passes": false
+  },
+  {
+   "multiple": 4.75,
+   "price": 4750000.0,
+   "sba_loan": 4500000.0,
+   "annual_sba_payment": 706159.307891007,
+   "dscr": 1.1328888411727582,
+   "passes": false
+  },
+  {
+   "multiple": 5.0,
+   "price": 5000000.0,
+   "sba_loan": 4725000.0,
+   "annual_sba_payment": 741467.2732855574,
+   "dscr": 1.0789417534978651,
+   "passes": false
+  },
+  {
+   "multiple": 5.25,
+   "price": 5250000.0,
+   "sba_loan": 4950000.0,
+   "annual_sba_payment": 776775.2386801078,
+   "dscr": 1.0298989465206894,
+   "passes": false
+  },
+  {
+   "multiple": 5.5,
+   "price": 5500000.0,
+   "sba_loan": 5175000.0,
+   "annual_sba_payment": 812083.2040746581,
+   "dscr": 0.9851207314545725,
+   "passes": false
+  }
+ ],
+ "scenarios": {
+  "base": {
+   "name": "base",
+   "growth_pct": 7.000000000000001,
+   "exit_multiple": 4.5,
+   "year1_shock_pct": 0.0,
+   "hold_years": 6,
+   "entry_price": 4000000.0,
+   "exit_ebitda": 1500730.3518490004,
+   "bridge": {
+    "price_paid": 4000000.0,
+    "earnings_growth": 2002921.4073960017,
+    "multiple_change": 750365.1759245002,
+    "sale_price": 6753286.583320502,
+    "sba_still_owed": 1981548.5320848888,
+    "seller_note_with_interest": 301435.31135440007,
+    "owner_proceeds": 4470302.739881214
+   },
+   "sba_paid_down": 1843451.4679151112,
+   "cash_along_the_way": 2521804.403795065,
+   "buyer_cash_in": 212500.0,
+   "buyer_cash_back": 6992107.143676279,
+   "moic_with_payouts": 32.904033617300136,
+   "irr_with_payouts_pct": 151.18113526899424,
+   "moic_proceeds_only": 21.036718775911595,
+   "irr_proceeds_only_pct": 66.14846508895134,
+   "yearly_shortfall": 0.0,
+   "min_dscr": 1.4261071294762957,
+   "rows": [
+    {
+     "year": 0,
+     "ebitda": 1000000.0,
+     "revenue": 5000000.0,
+     "sba_balance": 3825000.0,
+     "note_balance": 212500.0,
+     "cash_after_debt": 0.0,
+     "dscr": null
+    },
+    {
+     "year": 1,
+     "ebitda": 1070000.0,
+     "revenue": 5350000.0,
+     "sba_balance": 3587264.5221852674,
+     "note_balance": 225250.0,
+     "cash_after_debt": 255764.588292644,
+     "dscr": 1.4261071294762957
+    },
+    {
+     "year": 2,
+     "ebitda": 1144900.0,
+     "revenue": 5724500.0,
+     "sba_balance": 3325285.441311194,
+     "note_balance": 238765.00000000003,
+     "cash_after_debt": 315684.588292644,
+     "dscr": 1.5259346285396365
+    },
+    {
+     "year": 3,
+     "ebitda": 1225043.0,
+     "revenue": 6125215.000000001,
+     "sba_balance": 3036590.4621414873,
+     "note_balance": 253090.90000000002,
+     "cash_after_debt": 379798.9882926439,
+     "dscr": 1.6327500525374108
+    },
+    {
+     "year": 4,
+     "ebitda": 1310796.0100000002,
+     "revenue": 6553980.050000001,
+     "sba_balance": 2718455.1716453,
+     "note_balance": 268276.35400000005,
+     "cash_after_debt": 448401.3962926442,
+     "dscr": 1.74704255621503
+    },
+    {
+     "year": 5,
+     "ebitda": 1402551.7307000004,
+     "revenue": 7012758.653500002,
+     "sba_balance": 2367877.328725497,
+     "note_balance": 284372.9352400001,
+     "cash_after_debt": 521805.9728526444,
+     "dscr": 1.8693355351500824
+    },
+    {
+     "year": 6,
+     "ebitda": 1500730.3518490004,
+     "revenue": 7503651.759245003,
+     "sba_balance": 1981548.5320848888,
+     "note_balance": 301435.31135440007,
+     "cash_after_debt": 600348.8697718444,
+     "dscr": 2.0001890226105883
+    }
+   ],
+   "label": "If the plan works"
+  },
+  "flat": {
+   "name": "flat",
+   "growth_pct": 0.0,
+   "exit_multiple": 4.0,
+   "year1_shock_pct": 0.0,
+   "hold_years": 6,
+   "entry_price": 4000000.0,
+   "exit_ebitda": 1000000.0,
+   "bridge": {
+    "price_paid": 4000000.0,
+    "earnings_growth": 0.0,
+    "multiple_change": 0.0,
+    "sale_price": 4000000.0,
+    "sba_still_owed": 1981548.5320848888,
+    "seller_note_with_interest": 301435.31135440007,
+    "owner_proceeds": 1717016.156560711
+   },
+   "sba_paid_down": 1843451.4679151112,
+   "cash_along_the_way": 1198587.529755864,
+   "buyer_cash_in": 212500.0,
+   "buyer_cash_back": 2915603.686316575,
+   "moic_with_payouts": 13.72048793560741,
+   "irr_with_payouts_pct": 104.30350439546135,
+   "moic_proceeds_only": 8.080076030873935,
+   "irr_proceeds_only_pct": 41.65630452189969,
+   "yearly_shortfall": 0.0,
+   "min_dscr": 1.3328104013797157,
+   "rows": [
+    {
+     "year": 0,
+     "ebitda": 1000000.0,
+     "revenue": 5000000.0,
+     "sba_balance": 3825000.0,
+     "note_balance": 212500.0,
+     "cash_after_debt": 0.0,
+     "dscr": null
+    },
+    {
+     "year": 1,
+     "ebitda": 1000000.0,
+     "revenue": 5000000.0,
+     "sba_balance": 3587264.5221852674,
+     "note_balance": 225250.0,
+     "cash_after_debt": 199764.588292644,
+     "dscr": 1.3328104013797157
+    },
+    {
+     "year": 2,
+     "ebitda": 1000000.0,
+     "revenue": 5000000.0,
+     "sba_balance": 3325285.441311194,
+     "note_balance": 238765.00000000003,
+     "cash_after_debt": 199764.588292644,
+     "dscr": 1.3328104013797157
+    },
+    {
+     "year": 3,
+     "ebitda": 1000000.0,
+     "revenue": 5000000.0,
+     "sba_balance": 3036590.4621414873,
+     "note_balance": 253090.90000000002,
+     "cash_after_debt": 199764.588292644,
+     "dscr": 1.3328104013797157
+    },
+    {
+     "year": 4,
+     "ebitda": 1000000.0,
+     "revenue": 5000000.0,
+     "sba_balance": 2718455.1716453,
+     "note_balance": 268276.35400000005,
+     "cash_after_debt": 199764.588292644,
+     "dscr": 1.3328104013797157
+    },
+    {
+     "year": 5,
+     "ebitda": 1000000.0,
+     "revenue": 5000000.0,
+     "sba_balance": 2367877.328725497,
+     "note_balance": 284372.9352400001,
+     "cash_after_debt": 199764.588292644,
+     "dscr": 1.3328104013797157
+    },
+    {
+     "year": 6,
+     "ebitda": 1000000.0,
+     "revenue": 5000000.0,
+     "sba_balance": 1981548.5320848888,
+     "note_balance": 301435.31135440007,
+     "cash_after_debt": 199764.588292644,
+     "dscr": 1.3328104013797157
+    }
+   ],
+   "label": "Nothing improves"
+  },
+  "downside": {
+   "name": "downside",
+   "growth_pct": 0.0,
+   "exit_multiple": 3.5,
+   "year1_shock_pct": -20.0,
+   "hold_years": 6,
+   "entry_price": 4000000.0,
+   "exit_ebitda": 800000.0,
+   "bridge": {
+    "price_paid": 4000000.0,
+    "earnings_growth": -800000.0,
+    "multiple_change": -400000.0,
+    "sale_price": 2800000.0,
+    "sba_still_owed": 1981548.5320848888,
+    "seller_note_with_interest": 301435.31135440007,
+    "owner_proceeds": 517016.15656071116
+   },
+   "sba_paid_down": 1843451.4679151112,
+   "cash_along_the_way": 238587.52975586406,
+   "buyer_cash_in": 212500.0,
+   "buyer_cash_back": 755603.6863165752,
+   "moic_with_payouts": 3.5557820532544713,
+   "irr_with_payouts_pct": 29.9584150827224,
+   "moic_proceeds_only": 2.433017207344523,
+   "irr_proceeds_only_pct": 15.973170477074127,
+   "yearly_shortfall": 0.0,
+   "min_dscr": 1.0662483211037725,
+   "rows": [
+    {
+     "year": 0,
+     "ebitda": 1000000.0,
+     "revenue": 5000000.0,
+     "sba_balance": 3825000.0,
+     "note_balance": 212500.0,
+     "cash_after_debt": 0.0,
+     "dscr": null
+    },
+    {
+     "year": 1,
+     "ebitda": 800000.0,
+     "revenue": 4000000.0,
+     "sba_balance": 3587264.5221852674,
+     "note_balance": 225250.0,
+     "cash_after_debt": 39764.58829264401,
+     "dscr": 1.0662483211037725
+    },
+    {
+     "year": 2,
+     "ebitda": 800000.0,
+     "revenue": 4000000.0,
+     "sba_balance": 3325285.441311194,
+     "note_balance": 238765.00000000003,
+     "cash_after_debt": 39764.58829264401,
+     "dscr": 1.0662483211037725
+    },
+    {
+     "year": 3,
+     "ebitda": 800000.0,
+     "revenue": 4000000.0,
+     "sba_balance": 3036590.4621414873,
+     "note_balance": 253090.90000000002,
+     "cash_after_debt": 39764.58829264401,
+     "dscr": 1.0662483211037725
+    },
+    {
+     "year": 4,
+     "ebitda": 800000.0,
+     "revenue": 4000000.0,
+     "sba_balance": 2718455.1716453,
+     "note_balance": 268276.35400000005,
+     "cash_after_debt": 39764.58829264401,
+     "dscr": 1.0662483211037725
+    },
+    {
+     "year": 5,
+     "ebitda": 800000.0,
+     "revenue": 4000000.0,
+     "sba_balance": 2367877.328725497,
+     "note_balance": 284372.9352400001,
+     "cash_after_debt": 39764.58829264401,
+     "dscr": 1.0662483211037725
+    },
+    {
+     "year": 6,
+     "ebitda": 800000.0,
+     "revenue": 4000000.0,
+     "sba_balance": 1981548.5320848888,
+     "note_balance": 301435.31135440007,
+     "cash_after_debt": 39764.58829264401,
+     "dscr": 1.0662483211037725
+    }
+   ],
+   "label": "Earnings fall 20%"
+  },
+  "break": {
+   "name": "break",
+   "growth_pct": 0.0,
+   "exit_multiple": 3.5,
+   "year1_shock_pct": -35.0,
+   "hold_years": 6,
+   "entry_price": 4000000.0,
+   "exit_ebitda": 650000.0,
+   "bridge": {
+    "price_paid": 4000000.0,
+    "earnings_growth": -1400000.0,
+    "multiple_change": -325000.0,
+    "sale_price": 2275000.0,
+    "sba_still_owed": 1981548.5320848888,
+    "seller_note_with_interest": 301435.31135440007,
+    "owner_proceeds": 0.0
+   },
+   "sba_paid_down": 1843451.4679151112,
+   "cash_along_the_way": 0.0,
+   "buyer_cash_in": 212500.0,
+   "buyer_cash_back": 0.0,
+   "moic_with_payouts": 0.0,
+   "irr_with_payouts_pct": 1000.0,
+   "moic_proceeds_only": 0.0,
+   "irr_proceeds_only_pct": -100.0,
+   "yearly_shortfall": 80235.41170735599,
+   "min_dscr": 0.8663267608968152,
+   "rows": [
+    {
+     "year": 0,
+     "ebitda": 1000000.0,
+     "revenue": 5000000.0,
+     "sba_balance": 3825000.0,
+     "note_balance": 212500.0,
+     "cash_after_debt": 0.0,
+     "dscr": null
+    },
+    {
+     "year": 1,
+     "ebitda": 650000.0,
+     "revenue": 3250000.0,
+     "sba_balance": 3587264.5221852674,
+     "note_balance": 225250.0,
+     "cash_after_debt": 0.0,
+     "dscr": 0.8663267608968152
+    },
+    {
+     "year": 2,
+     "ebitda": 650000.0,
+     "revenue": 3250000.0,
+     "sba_balance": 3325285.441311194,
+     "note_balance": 238765.00000000003,
+     "cash_after_debt": 0.0,
+     "dscr": 0.8663267608968152
+    },
+    {
+     "year": 3,
+     "ebitda": 650000.0,
+     "revenue": 3250000.0,
+     "sba_balance": 3036590.4621414873,
+     "note_balance": 253090.90000000002,
+     "cash_after_debt": 0.0,
+     "dscr": 0.8663267608968152
+    },
+    {
+     "year": 4,
+     "ebitda": 650000.0,
+     "revenue": 3250000.0,
+     "sba_balance": 2718455.1716453,
+     "note_balance": 268276.35400000005,
+     "cash_after_debt": 0.0,
+     "dscr": 0.8663267608968152
+    },
+    {
+     "year": 5,
+     "ebitda": 650000.0,
+     "revenue": 3250000.0,
+     "sba_balance": 2367877.328725497,
+     "note_balance": 284372.9352400001,
+     "cash_after_debt": 0.0,
+     "dscr": 0.8663267608968152
+    },
+    {
+     "year": 6,
+     "ebitda": 650000.0,
+     "revenue": 3250000.0,
+     "sba_balance": 1981548.5320848888,
+     "note_balance": 301435.31135440007,
+     "cash_after_debt": 0.0,
+     "dscr": 0.8663267608968152
+    }
+   ],
+   "label": "Earnings fall 35%"
+  }
+ },
+ "stack_labels": {
+  "a": "Pay 4.0x",
+  "b": "Pay 5.0x",
+  "c": "Pay 5.0x, investors fill the gap",
+  "d": "Highest price the bank test allows"
+ },
+ "qoe": {
+  "items": [
+   {
+    "label": "EBITDA in the seller's numbers, with add-backs",
+    "amount": 1250000,
+    "kind": "total"
+   },
+   {
+    "label": "Repairs called one-time that happen every year",
+    "amount": -80000,
+    "kind": "step"
+   },
+   {
+    "label": "Relatives on payroll who do real work",
+    "amount": -70000,
+    "kind": "step"
+   },
+   {
+    "label": "Year-end jobs counted before they were finished",
+    "amount": -100000,
+    "kind": "step"
+   },
+   {
+    "label": "EBITDA that holds up after quality of earnings",
+    "amount": 1000000,
+    "kind": "total"
+   }
+  ],
+  "claimed_ebitda": 1250000,
+  "verified_ebitda": 1000000,
+  "gap": 250000,
+  "multiple": 4.0,
+  "price_on_claimed": 5000000.0,
+  "price_on_verified": 4000000.0,
+  "overpay": 1000000.0
+ },
+ "day1": {
+  "weeks": [
+   {
+    "week": 0,
+    "cash_peg": 100000,
+    "cash_no_ar": 100000
+   },
+   {
+    "week": 1,
+    "cash_peg": 119230.76923076923,
+    "cash_no_ar": 23076.923076923078
+   },
+   {
+    "week": 2,
+    "cash_peg": 138461.53846153847,
+    "cash_no_ar": -53846.153846153844
+   },
+   {
+    "week": 3,
+    "cash_peg": 157692.3076923077,
+    "cash_no_ar": -130769.23076923077
+   },
+   {
+    "week": 4,
+    "cash_peg": 176923.07692307694,
+    "cash_no_ar": -207692.3076923077
+   },
+   {
+    "week": 5,
+    "cash_peg": 146134.2285115665,
+    "cash_no_ar": -334635.0022576643
+   },
+   {
+    "week": 6,
+    "cash_peg": 165364.99774233572,
+    "cash_no_ar": -411558.0791807412
+   },
+   {
+    "week": 7,
+    "cash_peg": 184595.76697310497,
+    "cash_no_ar": -488481.15610381815
+   },
+   {
+    "week": 8,
+    "cash_peg": 203826.53620387422,
+    "cash_no_ar": -469250.3868730489
+   },
+   {
+    "week": 9,
+    "cash_peg": 173037.68779236378,
+    "cash_no_ar": -500039.2352845593
+   },
+   {
+    "week": 10,
+    "cash_peg": 192268.457023133,
+    "cash_no_ar": -480808.46605379006
+   },
+   {
+    "week": 11,
+    "cash_peg": 211499.22625390225,
+    "cash_no_ar": -461577.6968230208
+   },
+   {
+    "week": 12,
+    "cash_peg": 230729.9954846715,
+    "cash_no_ar": -442346.92759225157
+   },
+   {
+    "week": 13,
+    "cash_peg": 199941.14707316106,
+    "cash_no_ar": -473135.77600376203
+   }
+  ],
+  "reserve": 100000,
+  "closing_fees": 150000,
+  "weekly_sales": 96153.84615384616,
+  "weekly_costs": 76923.07692307692,
+  "monthly_loan_payment": 50019.61764227966,
+  "dso_days": 45,
+  "first_payment_week": 8,
+  "low_point_no_ar": -500039.2352845593,
+  "shortfall_no_ar": 500039.2352845593,
+  "cash_needed_no_ar": 600039.2352845593,
+  "low_point_peg": 100000,
+  "case_labels": {
+   "peg": "Receivables come with the business",
+   "no_ar": "Seller keeps the receivables"
+  }
+ },
+ "hero": {
+  "tiles": [
+   {
+    "display": "40%",
+    "label": "of small-business owners plan to retire within 10 years",
+    "source_short": "Chase survey, March 2026",
+    "source": "chase-2026"
+   },
+   {
+    "display": "58%",
+    "label": "of investor-backed search funds ever buy a company, after about 20 months of searching",
+    "source_short": "Stanford, 2026",
+    "source": "stanford-2026"
+   },
+   {
+    "display": "$32.4B",
+    "label": "of SBA 7(a) loans approved in fiscal 2026",
+    "source_short": "SBA, November 2026",
+    "source": "sba-fy26"
+   }
+  ]
+ },
+ "models": {
+  "rows": [
+   {
+    "key": "traditional",
+    "name": "Traditional search fund",
+    "who_pays": "Investors pay for the search, about $400K to $500K",
+    "owner_share": "Searcher earns roughly a quarter to a third",
+    "size": "Median price $16M (2024 to 2025 deals)",
+    "time": "About 20 months to buy",
+    "result": "58% buy a company; pooled IRR 33.9%",
+    "source": [
+     "stanford-2026",
+     "gosba-self-funded"
+    ]
+   },
+   {
+    "key": "self-funded",
+    "name": "Self-funded search",
+    "who_pays": "The searcher, about $100K to $200K of their own money",
+    "owner_share": "Searcher can keep up to 100%",
+    "size": "Smaller deals, usually with an SBA loan (7(a) loans up to $5M)",
+    "time": "Often 12 to 24 months",
+    "result": "Not covered by Stanford's 2024 study, per one law firm",
+    "source": [
+     "gosba-self-funded",
+     "sba-7a-page",
+     "sba-10m",
+     "fredlaw-life-cycle"
+    ]
+   },
+   {
+    "key": "sponsor",
+    "name": "Independent sponsor",
+    "who_pays": "No fund: finds and signs a deal first, then raises money for that one deal",
+    "owner_share": "Negotiated deal by deal",
+    "size": "Varies by deal",
+    "time": "Deal by deal",
+    "result": "No industry-wide study cited here",
+    "source": "revision-indep"
+   },
+   {
+    "key": "pe",
+    "name": "Private equity fund",
+    "who_pays": "Institutions invest in a fund that buys many companies",
+    "owner_share": "Fund owns control; managers share the profits",
+    "size": "GF Data's private equity-backed deals averaged 7.0x EBITDA in Q2 2026",
+    "time": "Holds about 7 years",
+    "result": "Total debt about 2.9x EBITDA on new platform buyouts",
+    "source": [
+     "gfdata-q2",
+     "bain-2026"
+    ]
+   }
+  ]
+ },
+ "sellers": {
+  "rows": [
+   {
+    "key": "broker",
+    "name": "Business broker",
+    "size": "Main Street: under $2M of value",
+    "fee": "8% to 12% of the price, often a $25K to $75K minimum",
+    "multiple": "2.0x to 3.1x SDE",
+    "time": "6 to 10 months to close",
+    "tip": "Be prepared and financeable",
+    "source": [
+     "ibba-q2",
+     "ibba-pr-q2",
+     "ct-fees"
+    ]
+   },
+   {
+    "key": "advisor",
+    "name": "M&A advisor",
+    "size": "Lower middle market: $2M to $50M",
+    "fee": "About 2% to 12%, falling as deals get bigger",
+    "multiple": "4.0x to 5.8x EBITDA",
+    "time": "11 to 12 months to close",
+    "tip": "Formal process: 87% of $5M-plus deals drew 3 or more offers",
+    "source": [
+     "ibba-q2",
+     "ibba-pr-q2",
+     "ct-fees"
+    ]
+   },
+   {
+    "key": "bank",
+    "name": "Investment bank",
+    "size": "Larger companies",
+    "fee": "One 2026 guide: about 2% to 5% on $25M to $100M deals",
+    "multiple": "GF Data's private equity-backed deals averaged 7.0x EBITDA in Q2 2026",
+    "time": "Run as an auction with IOIs and LOIs",
+    "tip": "Mostly private equity funds and big companies bidding",
+    "source": [
+     "ct-fees",
+     "gfdata-q2"
+    ]
+   },
+   {
+    "key": "marketplace",
+    "name": "Marketplaces",
+    "size": "Listings from brokers and owners",
+    "fee": "Paid by the seller or broker",
+    "multiple": "Median sale $350,000 (BizBuySell, Q3 2026)",
+    "time": "2,132 sales reported by brokers in Q3 2026",
+    "tip": "Easy to browse; buyers are getting more selective (BizBuySell)",
+    "source": "bizbuysell-q3"
+   },
+   {
+    "key": "direct",
+    "name": "Direct outreach",
+    "size": "Owners who have not decided to sell",
+    "fee": "No broker fee for the seller",
+    "multiple": "Negotiated one to one",
+    "time": "Slow: letters, calls, relationships",
+    "tip": "70% of owners have no formal succession plan or are only in early-stage planning",
+    "source": "chase-2026"
+   }
+  ]
+ },
+ "timeline": {
+  "total": "6 to 12 months",
+  "steps": [
+   {
+    "key": "prep",
+    "step": "Seller gets ready",
+    "typical": "2 to 4 months",
+    "source_short": "BD Emerson",
+    "source": "bdemerson-process"
+   },
+   {
+    "key": "market",
+    "step": "Teaser, NDA and CIM",
+    "typical": "4 to 8 weeks",
+    "source_short": "BD Emerson",
+    "source": "bdemerson-process"
+   },
+   {
+    "key": "ioi",
+    "step": "IOIs and management meetings",
+    "typical": "4 to 8 weeks",
+    "source_short": "BD Emerson",
+    "source": "bdemerson-process"
+   },
+   {
+    "key": "loi",
+    "step": "LOI signed, exclusivity starts",
+    "typical": "60 to 90 days of exclusivity and diligence",
+    "source_short": "BD Emerson",
+    "source": "bdemerson-dd"
+   },
+   {
+    "key": "qoe",
+    "step": "Quality of earnings",
+    "typical": "4 to 6 weeks",
+    "source_short": "BD Emerson",
+    "source": "bdemerson-qoe"
+   },
+   {
+    "key": "sba",
+    "step": "SBA loan approval",
+    "typical": "30 to 90 days from application to closing",
+    "source_short": "Surge Business Law",
+    "source": "surge-sba"
+   },
+   {
+    "key": "docs",
+    "step": "Diligence and purchase agreement",
+    "typical": "6 to 12 weeks",
+    "source_short": "BD Emerson",
+    "source": "bdemerson-process"
+   },
+   {
+    "key": "close",
+    "step": "Closing",
+    "typical": "2 to 6 weeks",
+    "source_short": "BD Emerson",
+    "source": "bdemerson-process"
+   }
+  ],
+  "note": "Main Street deals averaged 6 to 10 months from engagement to close and lower-middle-market deals 11 to 12 months in Q2 2026 (IBBA and M&A Source).",
+  "note_source": "ibba-pr-q2"
+ },
+ "transition": {
+  "sba_max_months": 24,
+  "sba_prior_months": 12,
+  "source": "starfield-81",
+  "phases": [
+   {
+    "key": "shadow",
+    "when": "Weeks 1 to 4",
+    "what": "Seller works alongside every day; introductions to key customers, suppliers and staff",
+    "plan": true
+   },
+   {
+    "key": "handover",
+    "when": "Months 2 to 6",
+    "what": "Part time; relationships and know-how move to the new owner",
+    "plan": true
+   },
+   {
+    "key": "oncall",
+    "when": "Up to month 24",
+    "what": "On call as a consultant, the most the new SBA rules allow (one reading; confirm with your lender)",
+    "plan": false
+   }
+  ]
+ },
+ "sentiment": {
+  "themes": [
+   {
+    "key": "harm",
+    "theme": "Big private equity hurts customers and workers",
+    "where": "Hacker News; NYT roll-up story",
+    "tone": "Negative",
+    "tone_score": -0.8,
+    "count_label": "About 3/4 of arguments in the biggest PE thread",
+    "source": [
+     "hn-essential",
+     "nyt-renovo"
+    ]
+   },
+   {
+    "key": "debt",
+    "theme": "Debt is expensive and exits are stuck",
+    "where": "FT, WSJ, NYT, Hacker News",
+    "tone": "Negative",
+    "tone_score": -0.6,
+    "count_label": "$300B of risky loans due in 2028 and 2029",
+    "source": [
+     "wsj-debt-wall",
+     "nyt-unsold",
+     "hn-debt-wall",
+     "ft-borrowing"
+    ]
+   },
+   {
+    "key": "verify",
+    "theme": "Check the numbers before you buy",
+    "where": "Reddit (via search results); WSJ",
+    "tone": "Cautionary",
+    "tone_score": -0.2,
+    "count_label": "A recurring theme in about 14 Reddit excerpts",
+    "source": [
+     "wsj-laundromat"
+    ]
+   },
+   {
+    "key": "eta",
+    "theme": "Search funds and ETA, by name",
+    "where": "X; Hacker News",
+    "tone": "Neutral, educational",
+    "tone_score": 0.1,
+    "count_label": "About 12 of 42 X posts educational; 7 Hacker News mentions since 1 January 2025",
+    "source": [
+     "x-search",
+     "hn-search-fund"
+    ]
+   },
+   {
+    "key": "ai",
+    "theme": "AI holding companies are the new buyers",
+    "where": "FT, WSJ, X",
+    "tone": "Bullish on X; lawmakers push back (FT)",
+    "tone_score": 0.4,
+    "count_label": "6 of 8 AI roll-up posts on X bullish",
+    "source": [
+     "x-search",
+     "x-isenberg",
+     "ft-thrive-adt",
+     "wsj-thrive-adt"
+    ]
+   },
+   {
+    "key": "smallbuyer",
+    "theme": "Buy a boring business with an SBA loan",
+    "where": "X, Reddit (via search), Hacker News",
+    "tone": "Positive",
+    "tone_score": 0.7,
+    "count_label": "About 4 of 9 Hacker News SBA-loan comments positive; about 15 of 42 X posts, across all topics, bullish or promotional",
+    "source": [
+     "x-search",
+     "x-codie-sba",
+     "hn-sba-loan"
+    ]
+   }
+  ]
+ },
+ "team": {
+  "broker_fee": "Paid by the seller: typically 8% to 12% of the price on Main Street deals",
+  "qoe_fee": "One CPA firm's 2026 price list: about $20K to $35K and 4 to 6 weeks for a limited-scope review of a company worth under $5M",
+  "source": [
+   "ct-fees",
+   "bdemerson-qoe"
+  ]
+ },
+ "as_of": "7 November 2026"
+}

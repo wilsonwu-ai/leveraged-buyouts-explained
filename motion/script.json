@@ -1,0 +1,24 @@
+{
+ "voice": "marin",
+ "model": "gpt-4o-mini-tts",
+ "instructions": "Calm, clear, warm American female teacher. Steady medium pace, friendly and unhurried. A short pause before each number. Plain American English.",
+ "speed": 1.0,
+ "scenes": [
+  {"id": "s1", "vo": "A leveraged buyout is buying a company mostly with a loan that the company's own cash pays back.",
+   "caption": "A leveraged buyout is buying a company mostly with a loan that the company's own cash pays back."},
+  {"id": "s2", "vo": "Take an illustrative company with one million dollars of yearly operating profit, priced at four million. With fees and a cash cushion, a bank loan pays ninety percent, the seller lends five, and the buyer brings five percent in cash.",
+   "caption": "Take an illustrative company with $1.0M of yearly operating profit, priced at $4.0M. With fees and a cash cushion, a bank loan pays 90%, the seller lends 5%, and the buyer brings 5% in cash."},
+  {"id": "s3", "vo": "The bank's test: eight hundred thousand dollars a year for lenders, against a six hundred thousand dollar payment. One point three three times coverage. It passes. Pay four and a half times profit, and coverage drops to one point one nine. It fails.",
+   "caption": "The bank's test: $800K a year for lenders, against a $600K payment. 1.33x coverage. It passes. Pay 4.5x profit, and coverage drops to 1.19x. It fails."},
+  {"id": "s4", "vo": "So verify the earnings. Two hundred fifty thousand dollars of profit that isn't real costs one million dollars at four times profit.",
+   "caption": "So verify the earnings. $250K of profit that isn't real costs $1.0M at 4x profit."},
+  {"id": "s5", "vo": "Plan for day one. If the seller keeps what customers owe, payroll comes due weeks before new payments arrive. That's about six hundred thousand dollars in this example.",
+   "caption": "Plan for Day 1. If the seller keeps what customers owe, payroll comes due weeks before new payments arrive. That's about $600K in this example."},
+  {"id": "s6", "vo": "Then improve the business: better pricing, a real sales process, and AI tools for quoting, scheduling, billing and reporting. A bet, not a promise.",
+   "caption": "Then improve the business: better pricing, a real sales process, and AI tools for quoting, scheduling, billing and reporting. A bet, not a promise."},
+  {"id": "s7", "vo": "If the plan works, a sale in year six could return about twenty-one times the buyer's cash, before fees and taxes. If profit falls thirty-five percent, the buyer's cash is gone. Leverage cuts both ways.",
+   "caption": "If the plan works, a sale in year 6 could return about 21x the buyer's cash, before fees and taxes. If profit falls 35%, the buyer's cash is gone. Leverage cuts both ways."},
+  {"id": "s8", "vo": "Leveraged buyouts, explained. An illustrative example, not advice.",
+   "caption": "Leveraged buyouts, explained. An illustrative example, not advice."}
+ ]
+}

@@ -1,0 +1,70 @@
+<figure class="fig" id="fig-house" aria-labelledby="fig-house-t">
+  <p class="fig-title" id="fig-house-t">A leveraged buyout works like a rental house with a mortgage</p>
+  <p class="fig-sub">Left: the company and the stack of money that paid for it. Below: the cash it makes each year, which pays the loan back. The two thin layers are not to scale: they are drawn taller than their dollars so you can read them.</p>
+  <svg class="fig-house-svg" viewBox="0 0 320 528" role="img" aria-label="A company drawn as a house, with the stack of money that bought it: a large bank loan at the bottom, a small seller note above it and the buyer's cash on top. A cash arrow runs from the house to the loan. A bar below splits the company's yearly cash for lenders into the loan payment and what is left over.">
+    <defs>
+      <clipPath id="fig-house-clip"><rect x="136" y="64" width="184" height="252" rx="8"/></clipPath>
+      <clipPath id="fig-house-clip2"><rect x="0" y="382" width="320" height="32" rx="8"/></clipPath>
+    </defs>
+    <text class="fig-house-t fig-house-b" x="136" y="18">Total <tspan data-k="stack.a.project_cost" data-f="M2">$4.25M</tspan></text>
+    <text class="fig-house-m" x="136" y="36">including fees and</text>
+    <text class="fig-house-m" x="136" y="52">a cash cushion</text>
+    <g clip-path="url(#fig-house-clip)">
+      <g class="fig-house-layer">
+        <rect class="fig-house-k-loan" x="136" y="120" width="32" height="196"/>
+        <rect class="fig-house-w-loan" x="168" y="120" width="152" height="196"/>
+        <text class="fig-house-t fig-house-b" x="176" y="206">SBA loan</text>
+        <text class="fig-house-t" x="176" y="226" data-k="stack.a.sba_loan" data-f="M2">$3.83M</text>
+        <text class="fig-house-m" x="176" y="246">the mortgage</text>
+      </g>
+      <g class="fig-house-layer">
+        <rect class="fig-house-k-note" x="136" y="92" width="32" height="28"/>
+        <rect class="fig-house-w-note" x="168" y="92" width="152" height="28"/>
+        <text class="fig-house-t" x="176" y="111"><tspan class="fig-house-b">Seller note</tspan> <tspan data-k="stack.a.standby_seller_note" data-f="K0">$213K</tspan></text>
+      </g>
+      <g class="fig-house-layer">
+        <rect class="fig-house-k-cash" x="136" y="64" width="32" height="28"/>
+        <rect class="fig-house-w-cash" x="168" y="64" width="152" height="28"/>
+        <text class="fig-house-t" x="176" y="83"><tspan class="fig-house-b">Buyer cash</tspan> <tspan data-k="stack.a.buyer_cash" data-f="K0">$213K</tspan></text>
+      </g>
+    </g>
+    <g class="fig-house-house">
+      <text class="fig-house-t fig-house-b" x="0" y="178">The company</text>
+      <text class="fig-house-big" x="0" y="208" data-k="stack.a.price" data-f="M1">$4.0M</text>
+      <text class="fig-house-m" x="0" y="226">price paid</text>
+      <polygon class="fig-house-roof" points="42,238 4,270 80,270"/>
+      <rect class="fig-house-wall" x="12" y="270" width="60" height="46"/>
+      <rect class="fig-house-door" x="36" y="290" width="16" height="26"/>
+      <rect class="fig-house-win" x="18" y="278" width="12" height="12"/>
+      <rect class="fig-house-win" x="54" y="278" width="12" height="12"/>
+    </g>
+    <line class="fig-house-ground" x1="0" y1="318" x2="320" y2="318"/>
+    <g class="fig-house-arrow">
+      <text class="fig-house-m fig-house-mid" x="108" y="282">cash</text>
+      <line class="fig-house-flow" x1="86" y1="292" x2="120" y2="292"/>
+      <line class="fig-house-pulse" x1="86" y1="292" x2="120" y2="292"/>
+      <polygon class="fig-house-head" points="120,285 132,292 120,299"/>
+    </g>
+    <g class="fig-house-rent">
+      <text class="fig-house-t fig-house-b" x="0" y="344">The rent: cash for lenders each year</text>
+      <text class="fig-house-big" x="0" y="370" data-k="cfads" data-f="K0">$800K</text>
+    </g>
+    <g class="fig-house-rent" clip-path="url(#fig-house-clip2)">
+      <rect class="fig-house-pay" x="0" y="382" width="240.1" height="32"/>
+      <rect class="fig-house-left" x="240.1" y="382" width="79.9" height="32"/>
+    </g>
+    <g class="fig-house-rent">
+      <text class="fig-house-m" x="0" y="436">Yearly loan payment</text>
+      <text class="fig-house-t fig-house-b" x="0" y="456" data-k="stack.a.annual_sba_payment" data-f="K0">$600K</text>
+      <text class="fig-house-m" x="240.1" y="436">Left over</text>
+      <text class="fig-house-t fig-house-b" x="240.1" y="456" data-k="stack.a.cash_left_after_payment" data-f="K0">$200K</text>
+    </g>
+    <g class="fig-house-rent">
+      <rect class="fig-house-rule" x="0" y="478" width="4" height="46"/>
+      <text class="fig-house-say" x="14" y="496">The company's own cash pays back</text>
+      <text class="fig-house-say" x="14" y="518">the loan that bought it.</text>
+    </g>
+  </svg>
+  <p class="sr-only">The company was bought for <span data-k="stack.a.price" data-f="M1">$4.0M</span>. From the bottom, the money that paid for it was an SBA loan of <span data-k="stack.a.sba_loan" data-f="M2">$3.83M</span>, a seller note of <span data-k="stack.a.standby_seller_note" data-f="K0">$213K</span> and buyer cash of <span data-k="stack.a.buyer_cash" data-f="K0">$213K</span>, <span data-k="stack.a.project_cost" data-f="M2">$4.25M</span> in all including fees and a cash cushion. Each year the company makes <span data-k="cfads" data-f="K0">$800K</span> of cash for its lenders: <span data-k="stack.a.annual_sba_payment" data-f="K0">$600K</span> pays the loan and <span data-k="stack.a.cash_left_after_payment" data-f="K0">$200K</span> is left over. The company's own cash pays back the loan that bought it.</p>
+  <figcaption>Illustrative company: <span data-k="inputs.ebitda" data-f="M1">$1.0M</span> of EBITDA (yearly profit before interest, taxes, depreciation and amortization, a rough measure of cash profit) on <span data-k="inputs.revenue" data-f="M1">$5.0M</span> of revenue. Cash for lenders is EBITDA after cash taxes and equipment spending. In the house picture, the SBA loan is the mortgage, the buyer cash is the down payment and the cash for lenders is the rent. The SBA loan is a bank loan partly guaranteed by the U.S. Small Business Administration; the seller note is part of the price, paid later. Source: the author's illustrative model (model/lbo_model.py in the repo). One reading of the current SBA rules; confirm with your lender.</figcaption>
+</figure>

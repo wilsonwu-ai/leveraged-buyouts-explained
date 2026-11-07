@@ -1,0 +1,90 @@
+<template>
+<style>
+@font-face { font-family: 'Fraunces'; src: url('assets/fonts/fraunces-600.woff2') format('woff2'); font-weight: 600; }
+@font-face { font-family: 'Inter'; src: url('assets/fonts/inter-500.woff2') format('woff2'); font-weight: 500; }
+@font-face { font-family: 'Inter'; src: url('assets/fonts/inter-600.woff2') format('woff2'); font-weight: 600; }
+
+#root { position:absolute; inset:0; background:#F6F3EC; font-family:'Inter',sans-serif; font-weight:600; color:#10202F; overflow:hidden; }
+#root .wrap { position:absolute; inset:0; }
+#root .h { font-family:'Fraunces',serif; font-weight:600; position:absolute; line-height:1.08; letter-spacing:-0.01em; white-space:nowrap; }
+#root .t { position:absolute; font-weight:600; white-space:nowrap; line-height:1.1; }
+#root .n { position:absolute; font-weight:600; white-space:nowrap; line-height:1; letter-spacing:-0.025em; }
+#root .m { font-weight:500; }
+#root .box { position:absolute; }
+
+#root .bar { position:absolute; left:192px; height:140px; border-radius:14px; transform-origin:0 50%; }
+#root .badge { position:absolute; left:1330px; top:430px; width:400px; height:360px; border-radius:30px; box-sizing:border-box; border:7px solid; }
+</style>
+<div id="root" data-composition-id="s3" data-width="1920" data-height="1080">
+<div class="wrap" id="s3-wrap">
+<div class="h" id="s3-ttl" style="left:192px;top:84px;font-size:84px;color:#10202F;">The bank’s test</div>
+<div class="t" id="s3-p1" style="left:1120px;top:104px;font-size:52px;color:#10202F;padding:12px 30px;border:4px solid #10202F;border-radius:46px;background:#FFFFFF;">Price: 4.0x profit</div>
+<div class="t" id="s3-p2" style="left:1120px;top:104px;font-size:52px;color:#10202F;padding:12px 30px;border:4px solid #10202F;border-radius:46px;background:#FFFFFF;">Price: 4.5x profit</div>
+<div class="t" id="s3-l1" style="left:192px;top:336px;font-size:56px;color:#10202F;">Cash for lenders</div>
+<div class="bar" id="s3-b1" style="top:410px;width:1000px;background:#1E7F55;"></div>
+<div class="n" id="s3-v1" style="left:228px;top:434px;font-size:92px;color:#FFFFFF;">$800K</div>
+<div class="t" id="s3-l2" style="left:192px;top:646px;font-size:56px;color:#10202F;">Loan payment</div>
+<div class="bar" id="s3-b2" style="top:720px;width:750px;background:#2F5DA8;"></div>
+<div class="bar" id="s3-b2x" style="top:720px;width:839px;background:#2F5DA8;opacity:0;"></div>
+<div class="n" id="s3-v2" style="left:228px;top:744px;font-size:92px;color:#FFFFFF;">$600K</div>
+<div class="n" id="s3-v2x" style="left:228px;top:744px;font-size:92px;color:#FFFFFF;">$671K</div>
+<svg class="box" id="s3-mk" style="left:0;top:0;" width="1920" height="1080" viewBox="0 0 1920 1080"><path d="M 1192 380 L 1192 896" fill="none" stroke="#5B6672" stroke-width="4" stroke-dasharray="14 12" stroke-linecap="round"/></svg>
+<div class="badge" id="s3-pass" style="background:rgba(30,127,85,0.10);border-color:#1E7F55;"></div>
+<div class="badge" id="s3-fail" style="background:rgba(180,35,24,0.09);border-color:#B42318;"></div>
+<div class="t" id="s3-cov" style="left:1340px;top:356px;font-size:56px;color:#10202F;width:380px;text-align:center;">Coverage</div>
+<div class="n" id="s3-n1" style="left:1340px;top:470px;font-size:128px;color:#1E7F55;width:380px;text-align:center;">1.33x</div>
+<div class="n" id="s3-n2" style="left:1340px;top:470px;font-size:128px;color:#B42318;width:380px;text-align:center;">1.19x</div>
+<svg class="box" id="s3-ck" style="left:1366px;top:622px;" width="100" height="100" viewBox="0 0 100 100"><circle cx="50" cy="50" r="48" fill="#1E7F55"/><path id="s3-ck-p" d="M 27 52 L 44 69 L 74 33" fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" pathLength="100" stroke-dasharray="100 120" stroke-dashoffset="0"/></svg>
+<div class="t" id="s3-w1" style="left:1484px;top:640px;font-size:66px;color:#1E7F55;">Passes</div>
+<svg class="box" id="s3-xx" style="left:1366px;top:622px;" width="100" height="100" viewBox="0 0 100 100"><circle cx="50" cy="50" r="48" fill="#B42318"/><path id="s3-xx-p" d="M 32 32 L 68 68 M 68 32 L 32 68" fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round" pathLength="100" stroke-dasharray="100 120" stroke-dashoffset="0"/></svg>
+<div class="t" id="s3-w2" style="left:1484px;top:640px;font-size:66px;color:#B42318;">Fails</div>
+<div class="t m" id="s3-f1" style="left:1320px;top:826px;font-size:48px;color:#5B6672;width:420px;text-align:center;">$800K ÷ $600K</div>
+<div class="t m" id="s3-f2" style="left:1320px;top:826px;font-size:48px;color:#5B6672;width:420px;text-align:center;">$800K ÷ $671K</div>
+</div>
+</div>
+<script>
+(function() {
+const tl = gsap.timeline({ paused: true });
+const D = 15.59;
+tl.fromTo('#s3-wrap', { opacity: 0 }, { opacity: 1, duration: 0.25, ease: 'power2.out' }, 0);
+tl.to('#s3-wrap', { opacity: 0, duration: 0.2, ease: 'power2.in' }, D - 0.2);
+tl.fromTo('#s3-ttl', { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.7, ease: 'power2.out' }, 0.250);
+tl.fromTo('#s3-p1', { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 0.600);
+tl.set('#s3-p2,#s3-v2x,#s3-n2,#s3-w2,#s3-xx,#s3-f2,#s3-fail,#s3-mk,#s3-pass', { opacity: 0 }, 0);
+tl.fromTo('#s3-l1', { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 1.570);
+tl.fromTo('#s3-b1', { scaleX: 0 }, { scaleX: 1, duration: 1.5, ease: 'power2.out' }, 1.670);
+tl.fromTo('#s3-v1', { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 2.070);
+tl.fromTo('#s3-l2', { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 4.610);
+tl.fromTo('#s3-b2', { scaleX: 0 }, { scaleX: 1, duration: 1.2, ease: 'power2.out' }, 4.710);
+tl.fromTo('#s3-v2', { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 5.110);
+tl.fromTo('#s3-mk', { opacity: 0 }, { opacity: 1, duration: 0.5, ease: 'power2.out' }, 4.810);
+tl.fromTo('#s3-pass', { opacity: 0, scale: 0.92 }, { opacity: 1, scale: 1, duration: 0.5, ease: 'back.out(1.6)' }, 6.430);
+tl.fromTo('#s3-n1', { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 6.530);
+tl.fromTo('#s3-cov', { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.45, ease: 'power2.out' }, 6.380);
+tl.fromTo('#s3-f1', { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.45, ease: 'power2.out' }, 6.780);
+tl.fromTo('#s3-ck', { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.35, ease: 'back.out(2)' }, 8.740);
+tl.fromTo('#s3-ck-p', { strokeDashoffset: 110 }, { strokeDashoffset: 0, duration: 0.45, ease: 'power2.out' }, 8.890);
+tl.fromTo('#s3-w1', { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.45, ease: 'power2.out' }, 8.840);
+tl.to('#s3-p1', { opacity: 0, duration: 0.2, ease: 'power2.in' }, 9.640);
+tl.fromTo('#s3-p2', { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.3, ease: 'power2.out' }, 9.840);
+tl.set('#s3-b2x', { opacity: 1 }, 9.740);
+tl.fromTo('#s3-b2x', { scaleX: 0.8942 }, { scaleX: 1, duration: 1.0, ease: 'power2.inOut', immediateRender: false }, 9.740);
+tl.set('#s3-b2', { opacity: 0 }, 9.740);
+tl.to('#s3-v2', { opacity: 0, duration: 0.2, ease: 'power2.in' }, 10.340);
+tl.fromTo('#s3-v2x', { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.3, ease: 'power2.out' }, 10.540);
+tl.to('#s3-f1', { opacity: 0, duration: 0.2, ease: 'power2.in' }, 12.790);
+tl.fromTo('#s3-f2', { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.3, ease: 'power2.out' }, 12.990);
+tl.to('#s3-n1', { opacity: 0, duration: 0.2, ease: 'power2.in' }, 12.790);
+tl.fromTo('#s3-n2', { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.3, ease: 'power2.out' }, 12.990);
+tl.to('#s3-pass', { opacity: 0, duration: 0.3, ease: 'power2.in' }, 12.790);
+tl.fromTo('#s3-fail', { opacity: 0, scale: 0.94 }, { opacity: 1, scale: 1, duration: 0.4, ease: 'back.out(1.8)' }, 12.890);
+tl.to('#s3-ck', { opacity: 0, duration: 0.25, ease: 'power2.in' }, 12.790);
+tl.to('#s3-w1', { opacity: 0, duration: 0.25, ease: 'power2.in' }, 12.790);
+tl.fromTo('#s3-xx', { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.35, ease: 'back.out(2)' }, 13.040);
+tl.fromTo('#s3-xx-p', { strokeDashoffset: 110 }, { strokeDashoffset: 0, duration: 0.45, ease: 'power2.out' }, 13.190);
+tl.fromTo('#s3-w2', { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.45, ease: 'power2.out' }, 13.140);
+tl.to('#s3-xx', { scale: 1.12, duration: 0.4, yoyo: true, repeat: 3, ease: 'sine.inOut' }, 13.790);
+window.__timelines['s3'] = tl;
+})();
+</script>
+</template>

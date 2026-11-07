@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1920, height=1080" />
+<script src="assets/gsap.min.js"></script>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+html, body { width:1920px; height:1080px; overflow:hidden; background:#F6F3EC; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="87.93" data-width="1920" data-height="1080">
+<div id="s1" data-composition-id="s1" data-composition-src="compositions/s1.html" data-start="0.0" data-duration="6.88" data-track-index="1" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+<div id="s2" data-composition-id="s2" data-composition-src="compositions/s2.html" data-start="6.88" data-duration="13.06" data-track-index="1" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+<div id="s3" data-composition-id="s3" data-composition-src="compositions/s3.html" data-start="19.94" data-duration="15.59" data-track-index="1" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+<div id="s4" data-composition-id="s4" data-composition-src="compositions/s4.html" data-start="35.53" data-duration="8.97" data-track-index="1" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+<div id="s5" data-composition-id="s5" data-composition-src="compositions/s5.html" data-start="44.5" data-duration="10.75" data-track-index="1" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+<div id="s6" data-composition-id="s6" data-composition-src="compositions/s6.html" data-start="55.25" data-duration="11.12" data-track-index="1" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+<div id="s7" data-composition-id="s7" data-composition-src="compositions/s7.html" data-start="66.37" data-duration="13.5" data-track-index="1" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+<div id="s8" data-composition-id="s8" data-composition-src="compositions/s8.html" data-start="79.87" data-duration="8.06" data-track-index="1" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+<audio id="narration" src="assets/narration.wav" data-start="0" data-duration="87.93" data-track-index="2" data-volume="1"></audio>
+</div>
+<script>
+window.__timelines = window.__timelines || {};
+const tl = gsap.timeline({ paused: true });
+window.__timelines['main'] = tl;
+</script>
+</body>
+</html>

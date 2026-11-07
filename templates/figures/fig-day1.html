@@ -1,0 +1,15 @@
+<figure class="fig" id="fig-day1" aria-labelledby="fig-day1-t">
+  <p class="fig-title" id="fig-day1-t">Who keeps the receivables decides how much cash you need on Day 1</p>
+  <p class="fig-sub">Day 1 is the day you take over. Receivables are bills the company has sent to customers that are not paid yet. If the seller keeps them, your cash line dives below zero until customers start paying for your work. Pick a case to highlight it.</p>
+  <div class="fig-day1-controls" id="fig-day1-controls"></div>
+  <div class="chart" id="fig-day1-chart" role="img" aria-label="Line chart of the company's cash balance over the first 13 weeks after closing. If the receivables come with the business, cash stays above zero. If the seller keeps them, cash dives below zero for weeks, until customers start paying the new owner."></div>
+  <div class="fallback"><!-- TABLE:day1 --></div>
+  <ul class="fig-day1-facts">
+    <li>Starting cash is <span data-k="day1.reserve" data-f="K0">$100K</span>, left in the company's bank account after closing.</li>
+    <li>Customers pay about <span data-k="day1.dso_days" data-f="n0">45</span> days after the work, so if the seller keeps the receivables, the first customer cash arrives in week <span data-k="day1.first_payment_week" data-f="n0">8</span>.</li>
+    <li>Each small dip in a line is a loan payment of about <span data-k="day1.monthly_loan_payment" data-f="K0">$50K</span>.</li>
+  </ul>
+  <p class="fig-day1-callout">In the seller-keeps-them case the gap is about <span data-k="day1.shortfall_no_ar" data-f="K0">$500K</span>. To stay above zero you would need about <span data-k="day1.cash_needed_no_ar" data-f="K0">$600K</span> on Day 1 instead of <span data-k="day1.reserve" data-f="K0">$100K</span>: more cash, or a credit line (a loan you can draw on when you need it).</p>
+  <p class="sr-only fig-day1-live" id="fig-day1-live" aria-live="polite"></p>
+  <figcaption>Illustrative: <span data-k="day1.weekly_sales" data-f="K0">$96K</span> of weekly sales and <span data-k="day1.weekly_costs" data-f="K0">$77K</span> of weekly cash costs, with a loan payment of about <span data-k="day1.monthly_loan_payment" data-f="K0">$50K</span> <span id="fig-day1-payweeks">each month</span>. Customers paying about <span data-k="day1.dso_days" data-f="n0">45</span> days after the work is an assumption of the illustrative model, not a real company. Source: the illustrative model in this repo (model/lbo_model.py).</figcaption>
+</figure>

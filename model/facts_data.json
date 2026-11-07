@@ -1,0 +1,320 @@
+{
+ "hero": {
+  "tiles": [
+   {
+    "display": "40%",
+    "label": "of small-business owners plan to retire within 10 years",
+    "source_short": "Chase survey, March 2026",
+    "source": "chase-2026"
+   },
+   {
+    "display": "58%",
+    "label": "of investor-backed search funds ever buy a company, after about 20 months of searching",
+    "source_short": "Stanford, 2026",
+    "source": "stanford-2026"
+   },
+   {
+    "display": "$32.4B",
+    "label": "of SBA 7(a) loans approved in fiscal 2026",
+    "source_short": "SBA, November 2026",
+    "source": "sba-fy26"
+   }
+  ]
+ },
+ "models": {
+  "rows": [
+   {
+    "key": "traditional",
+    "name": "Traditional search fund",
+    "who_pays": "Investors pay for the search, about $400K to $500K",
+    "owner_share": "Searcher earns roughly a quarter to a third",
+    "size": "Median price $16M (2024 to 2025 deals)",
+    "time": "About 20 months to buy",
+    "result": "58% buy a company; pooled IRR 33.9%",
+    "source": [
+     "stanford-2026",
+     "gosba-self-funded"
+    ]
+   },
+   {
+    "key": "self-funded",
+    "name": "Self-funded search",
+    "who_pays": "The searcher, about $100K to $200K of their own money",
+    "owner_share": "Searcher can keep up to 100%",
+    "size": "Smaller deals, usually with an SBA loan (7(a) loans up to $5M)",
+    "time": "Often 12 to 24 months",
+    "result": "Not covered by Stanford's 2024 study, per one law firm",
+    "source": [
+     "gosba-self-funded",
+     "sba-7a-page",
+     "sba-10m",
+     "fredlaw-life-cycle"
+    ]
+   },
+   {
+    "key": "sponsor",
+    "name": "Independent sponsor",
+    "who_pays": "No fund: finds and signs a deal first, then raises money for that one deal",
+    "owner_share": "Negotiated deal by deal",
+    "size": "Varies by deal",
+    "time": "Deal by deal",
+    "result": "No industry-wide study cited here",
+    "source": "revision-indep"
+   },
+   {
+    "key": "pe",
+    "name": "Private equity fund",
+    "who_pays": "Institutions invest in a fund that buys many companies",
+    "owner_share": "Fund owns control; managers share the profits",
+    "size": "GF Data's private equity-backed deals averaged 7.0x EBITDA in Q2 2026",
+    "time": "Holds about 7 years",
+    "result": "Total debt about 2.9x EBITDA on new platform buyouts",
+    "source": [
+     "gfdata-q2",
+     "bain-2026"
+    ]
+   }
+  ]
+ },
+ "sellers": {
+  "rows": [
+   {
+    "key": "broker",
+    "name": "Business broker",
+    "size": "Main Street: under $2M of value",
+    "fee": "8% to 12% of the price, often a $25K to $75K minimum",
+    "multiple": "2.0x to 3.1x SDE",
+    "time": "6 to 10 months to close",
+    "tip": "Be prepared and financeable",
+    "source": [
+     "ibba-q2",
+     "ibba-pr-q2",
+     "ct-fees"
+    ]
+   },
+   {
+    "key": "advisor",
+    "name": "M&A advisor",
+    "size": "Lower middle market: $2M to $50M",
+    "fee": "About 2% to 12%, falling as deals get bigger",
+    "multiple": "4.0x to 5.8x EBITDA",
+    "time": "11 to 12 months to close",
+    "tip": "Formal process: 87% of $5M-plus deals drew 3 or more offers",
+    "source": [
+     "ibba-q2",
+     "ibba-pr-q2",
+     "ct-fees"
+    ]
+   },
+   {
+    "key": "bank",
+    "name": "Investment bank",
+    "size": "Larger companies",
+    "fee": "One 2026 guide: about 2% to 5% on $25M to $100M deals",
+    "multiple": "GF Data's private equity-backed deals averaged 7.0x EBITDA in Q2 2026",
+    "time": "Run as an auction with IOIs and LOIs",
+    "tip": "Mostly private equity funds and big companies bidding",
+    "source": [
+     "ct-fees",
+     "gfdata-q2"
+    ]
+   },
+   {
+    "key": "marketplace",
+    "name": "Marketplaces",
+    "size": "Listings from brokers and owners",
+    "fee": "Paid by the seller or broker",
+    "multiple": "Median sale $350,000 (BizBuySell, Q3 2026)",
+    "time": "2,132 sales reported by brokers in Q3 2026",
+    "tip": "Easy to browse; buyers are getting more selective (BizBuySell)",
+    "source": "bizbuysell-q3"
+   },
+   {
+    "key": "direct",
+    "name": "Direct outreach",
+    "size": "Owners who have not decided to sell",
+    "fee": "No broker fee for the seller",
+    "multiple": "Negotiated one to one",
+    "time": "Slow: letters, calls, relationships",
+    "tip": "70% of owners have no formal succession plan or are only in early-stage planning",
+    "source": "chase-2026"
+   }
+  ]
+ },
+ "timeline": {
+  "total": "6 to 12 months",
+  "steps": [
+   {
+    "key": "prep",
+    "step": "Seller gets ready",
+    "typical": "2 to 4 months",
+    "source_short": "BD Emerson",
+    "source": "bdemerson-process"
+   },
+   {
+    "key": "market",
+    "step": "Teaser, NDA and CIM",
+    "typical": "4 to 8 weeks",
+    "source_short": "BD Emerson",
+    "source": "bdemerson-process"
+   },
+   {
+    "key": "ioi",
+    "step": "IOIs and management meetings",
+    "typical": "4 to 8 weeks",
+    "source_short": "BD Emerson",
+    "source": "bdemerson-process"
+   },
+   {
+    "key": "loi",
+    "step": "LOI signed, exclusivity starts",
+    "typical": "60 to 90 days of exclusivity and diligence",
+    "source_short": "BD Emerson",
+    "source": "bdemerson-dd"
+   },
+   {
+    "key": "qoe",
+    "step": "Quality of earnings",
+    "typical": "4 to 6 weeks",
+    "source_short": "BD Emerson",
+    "source": "bdemerson-qoe"
+   },
+   {
+    "key": "sba",
+    "step": "SBA loan approval",
+    "typical": "30 to 90 days from application to closing",
+    "source_short": "Surge Business Law",
+    "source": "surge-sba"
+   },
+   {
+    "key": "docs",
+    "step": "Diligence and purchase agreement",
+    "typical": "6 to 12 weeks",
+    "source_short": "BD Emerson",
+    "source": "bdemerson-process"
+   },
+   {
+    "key": "close",
+    "step": "Closing",
+    "typical": "2 to 6 weeks",
+    "source_short": "BD Emerson",
+    "source": "bdemerson-process"
+   }
+  ],
+  "note": "Main Street deals averaged 6 to 10 months from engagement to close and lower-middle-market deals 11 to 12 months in Q2 2026 (IBBA and M&A Source).",
+  "note_source": "ibba-pr-q2"
+ },
+ "transition": {
+  "sba_max_months": 24,
+  "sba_prior_months": 12,
+  "source": "starfield-81",
+  "phases": [
+   {
+    "key": "shadow",
+    "when": "Weeks 1 to 4",
+    "what": "Seller works alongside every day; introductions to key customers, suppliers and staff",
+    "plan": true
+   },
+   {
+    "key": "handover",
+    "when": "Months 2 to 6",
+    "what": "Part time; relationships and know-how move to the new owner",
+    "plan": true
+   },
+   {
+    "key": "oncall",
+    "when": "Up to month 24",
+    "what": "On call as a consultant, the most the new SBA rules allow (one reading; confirm with your lender)",
+    "plan": false
+   }
+  ]
+ },
+ "sentiment": {
+  "themes": [
+   {
+    "key": "harm",
+    "theme": "Big private equity hurts customers and workers",
+    "where": "Hacker News; NYT roll-up story",
+    "tone": "Negative",
+    "tone_score": -0.8,
+    "count_label": "About 3/4 of arguments in the biggest PE thread",
+    "source": [
+     "hn-essential",
+     "nyt-renovo"
+    ]
+   },
+   {
+    "key": "debt",
+    "theme": "Debt is expensive and exits are stuck",
+    "where": "FT, WSJ, NYT, Hacker News",
+    "tone": "Negative",
+    "tone_score": -0.6,
+    "count_label": "$300B of risky loans due in 2028 and 2029",
+    "source": [
+     "wsj-debt-wall",
+     "nyt-unsold",
+     "hn-debt-wall",
+     "ft-borrowing"
+    ]
+   },
+   {
+    "key": "verify",
+    "theme": "Check the numbers before you buy",
+    "where": "Reddit (via search results); WSJ",
+    "tone": "Cautionary",
+    "tone_score": -0.2,
+    "count_label": "A recurring theme in about 14 Reddit excerpts",
+    "source": [
+     "wsj-laundromat"
+    ]
+   },
+   {
+    "key": "eta",
+    "theme": "Search funds and ETA, by name",
+    "where": "X; Hacker News",
+    "tone": "Neutral, educational",
+    "tone_score": 0.1,
+    "count_label": "About 12 of 42 X posts educational; 7 Hacker News mentions since 1 January 2025",
+    "source": [
+     "x-search",
+     "hn-search-fund"
+    ]
+   },
+   {
+    "key": "ai",
+    "theme": "AI holding companies are the new buyers",
+    "where": "FT, WSJ, X",
+    "tone": "Bullish on X; lawmakers push back (FT)",
+    "tone_score": 0.4,
+    "count_label": "6 of 8 AI roll-up posts on X bullish",
+    "source": [
+     "x-search",
+     "x-isenberg",
+     "ft-thrive-adt",
+     "wsj-thrive-adt"
+    ]
+   },
+   {
+    "key": "smallbuyer",
+    "theme": "Buy a boring business with an SBA loan",
+    "where": "X, Reddit (via search), Hacker News",
+    "tone": "Positive",
+    "tone_score": 0.7,
+    "count_label": "About 4 of 9 Hacker News SBA-loan comments positive; about 15 of 42 X posts, across all topics, bullish or promotional",
+    "source": [
+     "x-search",
+     "x-codie-sba",
+     "hn-sba-loan"
+    ]
+   }
+  ]
+ },
+ "team": {
+  "broker_fee": "Paid by the seller: typically 8% to 12% of the price on Main Street deals",
+  "qoe_fee": "One CPA firm's 2026 price list: about $20K to $35K and 4 to 6 weeks for a limited-scope review of a company worth under $5M",
+  "source": [
+   "ct-fees",
+   "bdemerson-qoe"
+  ]
+ }
+}
